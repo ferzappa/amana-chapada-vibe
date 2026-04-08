@@ -64,7 +64,7 @@ const Experiencias = () => (
             <div className={`grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center`}>
               <div className={`img-hover ${i % 2 !== 0 ? "lg:order-2" : ""}`}>
                 <img
-                  src={`https://images.unsplash.com/${j.img}?w=800&h=600&fit=crop`}
+                  src={j.isLocal ? j.img : `https://images.unsplash.com/${j.img}?w=800&h=600&fit=crop`}
                   alt={j.title}
                   className="w-full h-[350px] lg:h-[450px] object-cover"
                   loading="lazy"
