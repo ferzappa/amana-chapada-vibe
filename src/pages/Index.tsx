@@ -41,11 +41,16 @@ const Index = () => (
 
     {/* Hero */}
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      <img
-        src={heroImage}
-        alt="Vista panorâmica do Amaná Hotel na Chapada dos Veadeiros"
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster={heroImage}
         className="absolute inset-0 w-full h-full object-cover"
-      />
+      >
+        <source src="/videos/hero.mp4" type="video/mp4" />
+      </video>
       <div className="absolute inset-0 bg-chumbo/50" />
       <div className="relative z-10 text-center text-branco px-6 max-w-3xl">
         <p className="label-text text-dourado mb-6 animate-fade-in-up">Chapada dos Veadeiros</p>
