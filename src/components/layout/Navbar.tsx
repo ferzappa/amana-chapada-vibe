@@ -91,6 +91,14 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+            <a
+              href="https://www.instagram.com/amanahotelchapada/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="label-text text-sm text-foreground hover:text-accent transition-colors flex items-center gap-2"
+            >
+              <Instagram size={18} /> Instagram
+            </a>
             <Link
               to="/reservas-hotel-chapada-dos-veadeiros"
               className="label-text text-sm bg-primary text-primary-foreground px-6 py-3 text-center hover:bg-primary/90 transition-colors"
