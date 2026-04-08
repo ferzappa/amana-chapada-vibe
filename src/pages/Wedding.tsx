@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import weddingHero from "@/assets/wedding-hero.jpg";
 
 const diferenciais = [
   { title: "Hotel inteiro reservado", desc: "Exclusividade total — todo o Amaná é seu e dos seus convidados." },
