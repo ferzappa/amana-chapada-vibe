@@ -46,7 +46,7 @@ const Localizacao = () => (
         <SectionReveal>
           <div className="w-full aspect-video">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.5!2d-47.6195!3d-14.1005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935f3a0c0c0c0c0c%3A0x0!2sAman%C3%A1%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+              src="https://maps.google.com/maps?q=Aman%C3%A1+Hotel+Chapada+dos+Veadeiros+S%C3%A3o+Jorge&t=&z=14&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
