@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import trilhasImg from "@/assets/trilhas-hero.jpg";
+import cachoeirasImg from "@/assets/cachoeiras.jpg";
 
 const jornadas = [
   {
@@ -13,7 +14,8 @@ const jornadas = [
   {
     title: "Cachoeiras",
     desc: "A Chapada guarda algumas das cachoeiras mais impressionantes do Brasil. Nossas trilhas privativas levam a quedas d'água exclusivas, longe do fluxo turístico.",
-    img: "photo-1432405972618-c6b0cfba81f0",
+    img: cachoeirasImg,
+    isLocal: true,
   },
   {
     title: "Passeios Personalizados",
