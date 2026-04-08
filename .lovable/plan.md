@@ -1,17 +1,14 @@
 
 
-# Adicionar Instagram na Navbar
+# Substituir imagem hero da página Bangalôs
 
 ## O que será feito
-Adicionar o ícone do Instagram na navbar, ao lado do botão "Reservas", como um link discreto que abre o perfil `@amanahotelchapada` em nova aba.
+Substituir a imagem de fundo do hero da página de listagem de bangalôs (elemento selecionado na linha 50 de `BangalosListagem.tsx`) pela foto real do hotel enviada (`VIN04214.jpg`).
 
-## Implementação
+## Passos
 
-**Arquivo**: `src/components/layout/Navbar.tsx`
-
-1. Importar o ícone `Instagram` do lucide-react
-2. No desktop: adicionar o ícone Instagram entre os links de navegação e o botão "Reservas", com `size={18}` e hover dourado
-3. No mobile: adicionar o link do Instagram no final do menu mobile, antes do botão "Reservas"
-
-O ícone será apenas o símbolo (sem texto), mantendo a navbar limpa e elegante.
+1. **Copiar a imagem** para `src/assets/bangalos-hero.jpg`
+2. **Editar `src/pages/BangalosListagem.tsx`**:
+   - Importar a imagem: `import bangalosHero from "@/assets/bangalos-hero.jpg"`
+   - Substituir a URL Unsplash do hero (linha 50) pelo import `bangalosHero`
 
