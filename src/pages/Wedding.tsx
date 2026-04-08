@@ -19,7 +19,7 @@ const Wedding = () => (
 
     <section className="relative h-[70vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop&q=80"
+        src={weddingHero}
         alt="Wedding destination na Chapada dos Veadeiros"
         className="absolute inset-0 w-full h-full object-cover"
       />
