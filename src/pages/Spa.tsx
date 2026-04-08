@@ -27,11 +27,10 @@ const Spa = () => (
 
     <section className="relative h-[70vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1540555700478-4be289fbec6e?w=1920&h=1080&fit=crop&q=80"
+        src={spaHero}
         alt="SPA Amaná Hotel Chapada dos Veadeiros"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-chumbo/70 to-transparent" />
       <div className="relative z-10 container-narrow pb-16">
         <p className="label-text text-dourado mb-4">Wellness & Spa</p>
         <h1 className="display-1 text-branco">SPA Amaná</h1>
