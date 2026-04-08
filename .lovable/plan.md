@@ -1,14 +1,8 @@
 
 
-# Substituir imagem hero da página Bangalôs
+# Remover overlay escuro do hero dos Bangalôs
 
-## O que será feito
-Substituir a imagem de fundo do hero da página de listagem de bangalôs (elemento selecionado na linha 50 de `BangalosListagem.tsx`) pela foto real do hotel enviada (`VIN04214.jpg`).
+**Arquivo**: `src/pages/BangalosListagem.tsx`
 
-## Passos
-
-1. **Copiar a imagem** para `src/assets/bangalos-hero.jpg`
-2. **Editar `src/pages/BangalosListagem.tsx`**:
-   - Importar a imagem: `import bangalosHero from "@/assets/bangalos-hero.jpg"`
-   - Substituir a URL Unsplash do hero (linha 50) pelo import `bangalosHero`
+Remover a `<div>` com classe `bg-gradient-to-t from-chumbo/70 to-transparent` que cria o escurecimento sobre a foto. O texto sobre a imagem será mantido — pode ser necessário ajustar a cor ou adicionar sombra no texto para manter a legibilidade.
 
