@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import spaHero from "@/assets/spa-hero.jpg";
 
 const servicos = [
   {
