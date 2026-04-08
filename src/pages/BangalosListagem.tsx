@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import bangalosHero from "@/assets/bangalos-hero.jpg";
 
 const bangalos = [
   {
