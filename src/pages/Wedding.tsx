@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import weddingHero from "@/assets/wedding-hero.jpg";
 
 const diferenciais = [
   { title: "Hotel inteiro reservado", desc: "Exclusividade total — todo o Amaná é seu e dos seus convidados." },
@@ -18,7 +19,7 @@ const Wedding = () => (
 
     <section className="relative h-[70vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop&q=80"
+        src={weddingHero}
         alt="Wedding destination na Chapada dos Veadeiros"
         className="absolute inset-0 w-full h-full object-cover"
       />
