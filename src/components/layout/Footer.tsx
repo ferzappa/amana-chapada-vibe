@@ -60,26 +60,8 @@ const Footer = () => (
           >
             <Instagram size={14} /> @amanahotelchapada
           </a>
-          <div className="grid grid-cols-3 gap-2 mt-6">
-            {instagramPlaceholders.map((id, i) => (
-              <a
-                key={i}
-                href="https://www.instagram.com/amanahotelchapada/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="aspect-square overflow-hidden group relative"
-              >
-                <img
-                  src={`https://images.unsplash.com/${id}?w=200&h=200&fit=crop`}
-                  alt="Amaná Hotel Instagram"
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-primary/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <Instagram size={20} className="text-creme" />
-                </div>
-              </a>
-            ))}
+          <div className="mt-6">
+            <div className="elfsight-app-ca6f4a12-d35d-44cb-9a94-25191cf857a6" data-elfsight-app-lazy></div>
           </div>
         </div>
       </div>
