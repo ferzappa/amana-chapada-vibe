@@ -50,8 +50,8 @@ const BangalosListagem = () => (
       />
       
       <div className="relative z-10 container-narrow pb-16">
-        <p className="label-text text-dourado mb-4">Acomodações</p>
-        <h1 className="display-1 text-branco">Bangalôs</h1>
+        <p className="label-text text-dourado mb-4" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>Acomodações</p>
+        <h1 className="display-1 text-branco" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.6)' }}>Bangalôs</h1>
       </div>
     </section>
 

@@ -15,10 +15,9 @@ const Restaurante = () => (
         alt="Restaurante Amaná Hotel"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-chumbo/70 to-transparent" />
       <div className="relative z-10 container-narrow pb-16">
-        <p className="label-text text-dourado mb-4">Gastronomia</p>
-        <h1 className="display-1 text-branco">Restaurante Amaná</h1>
+        <p className="label-text text-dourado mb-4" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>Gastronomia</p>
+        <h1 className="display-1 text-branco" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.6)' }}>Restaurante Amaná</h1>
       </div>
     </section>
 

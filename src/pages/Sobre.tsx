@@ -34,10 +34,9 @@ const Sobre = () => (
         alt="Amaná Hotel visto de cima"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-chumbo/70 to-transparent" />
       <div className="relative z-10 container-narrow pb-16">
-        <p className="label-text text-dourado mb-4">Sobre</p>
-        <h1 className="display-1 text-branco max-w-2xl">Amaná Hotel</h1>
+        <p className="label-text text-dourado mb-4" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>Sobre</p>
+        <h1 className="display-1 text-branco max-w-2xl" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.6)' }}>Amaná Hotel</h1>
       </div>
     </section>
 
