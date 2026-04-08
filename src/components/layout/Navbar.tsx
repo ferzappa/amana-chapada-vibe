@@ -4,7 +4,7 @@ import logo from "@/assets/logo.png";
 import { Menu, X, Instagram } from "lucide-react";
 
 const navLinks = [
-  { label: "Amaná", href: "/amana-hotel-chapada-dos-veadeiros" },
+  { label: "Hotel", href: "/amana-hotel-chapada-dos-veadeiros" },
   { label: "Bangalôs", href: "/bangalos-chapada-dos-veadeiros" },
   { label: "Wellness & Spa", href: "/spa-chapada-dos-veadeiros" },
   { label: "Restaurante", href: "/restaurante-chapada-dos-veadeiros" },
