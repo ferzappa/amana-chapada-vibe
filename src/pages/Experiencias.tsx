@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import trilhasImg from "@/assets/trilhas-hero.jpg";
+import cachoeirasImg from "@/assets/cachoeiras.jpg";
 
 const jornadas = [
   {
