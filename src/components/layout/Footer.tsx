@@ -61,18 +61,18 @@ const Footer = () => (
         {/* Instagram Grid */}
         <div>
           <a
-            href="https://instagram.com/amanahotel"
+            href="https://www.instagram.com/amanahotelchapada/"
             target="_blank"
             rel="noopener noreferrer"
             className="label-text text-dourado mb-6 flex items-center gap-2 hover:text-dourado/80 transition-colors"
           >
-            <Instagram size={14} /> @amanahotel
+            <Instagram size={14} /> @amanahotelchapada
           </a>
           <div className="grid grid-cols-3 gap-2 mt-6">
             {instagramPlaceholders.map((id, i) => (
               <a
                 key={i}
-                href="https://instagram.com/amanahotel"
+                href="https://www.instagram.com/amanahotelchapada/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="aspect-square overflow-hidden group relative"
