@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram } from "lucide-react";
 
 const navLinks = [
   { label: "Amaná", href: "/amana-hotel-chapada-dos-veadeiros" },
@@ -51,6 +51,15 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
+          <a
+            href="https://www.instagram.com/amanahotelchapada/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-accent transition-colors duration-300"
+            aria-label="Instagram"
+          >
+            <Instagram size={18} />
+          </a>
           <Link
             to="/reservas-hotel-chapada-dos-veadeiros"
             className="label-text text-[11px] bg-primary text-primary-foreground px-6 py-3 hover:bg-primary/90 transition-colors duration-300"
@@ -82,6 +91,14 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+            <a
+              href="https://www.instagram.com/amanahotelchapada/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="label-text text-sm text-foreground hover:text-accent transition-colors flex items-center gap-2"
+            >
+              <Instagram size={18} /> Instagram
+            </a>
             <Link
               to="/reservas-hotel-chapada-dos-veadeiros"
               className="label-text text-sm bg-primary text-primary-foreground px-6 py-3 text-center hover:bg-primary/90 transition-colors"
