@@ -7,7 +7,8 @@ const jornadas = [
   {
     title: "Trilhas Guiadas",
     desc: "Percorra caminhos ancestrais com guias especializados que conhecem cada segredo do cerrado. Trilhas para todos os níveis, do contemplativo ao desafiador.",
-    img: "photo-1551632811-561732d1e306",
+    img: trilhasImg,
+    isLocal: true,
   },
   {
     title: "Cachoeiras",
