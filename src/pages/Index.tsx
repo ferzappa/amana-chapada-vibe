@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import cachoeirasExclusivasImg from "@/assets/cachoeiras-exclusivas.jpg";
 
 const heroImage = "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&h=1080&fit=crop&q=80";
 
 const experiencias = [
-  { title: "Cachoeiras Exclusivas", img: "photo-1432405972618-c6b0cfba81f0", desc: "Trilhas privativas até cachoeiras em meio ao cerrado preservado" },
+  { title: "Cachoeiras Exclusivas", img: cachoeirasExclusivasImg, isLocal: true, desc: "Trilhas privativas até cachoeiras em meio ao cerrado preservado" },
   { title: "Trilhas Guiadas", img: "photo-1551632811-561732d1e306", desc: "Caminhos ancestrais com guias especializados na região" },
   { title: "Piscina Natural", img: "photo-1575429198097-0414ec08e8cd", desc: "Águas cristalinas cercadas pela vegetação nativa" },
   { title: "Sauna & Bem-estar", img: "photo-1540555700478-4be289fbec6e", desc: "Rituais de relaxamento inspirados na tradição local" },
@@ -166,7 +167,7 @@ const Index = () => (
             {experiencias.map((exp, i) => (
               <div key={i} className="group relative overflow-hidden aspect-[4/5]">
                 <img
-                  src={`https://images.unsplash.com/${exp.img}?w=600&h=750&fit=crop`}
+                  src={exp.isLocal ? exp.img : `https://images.unsplash.com/${exp.img}?w=600&h=750&fit=crop`}
                   alt={exp.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
