@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "@/assets/logo.png";
 import { Menu, X, Instagram } from "lucide-react";
 
 const navLinks = [
@@ -34,8 +35,8 @@ const Navbar = () => {
       }`}
     >
       <nav className="container-narrow flex items-center justify-between h-20 md:h-24">
-        <Link to="/" className="font-serif text-2xl md:text-3xl tracking-wide text-primary">
-          Amaná
+        <Link to="/">
+          <img src={logo} alt="Amaná Hotel" className="h-10 md:h-12 w-auto" />
         </Link>
 
         {/* Desktop */}
