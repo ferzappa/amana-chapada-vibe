@@ -48,7 +48,7 @@ const BangalosListagem = () => (
         alt="Bangalôs de luxo Amaná Hotel"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-chumbo/70 to-transparent" />
+      
       <div className="relative z-10 container-narrow pb-16">
         <p className="label-text text-dourado mb-4">Acomodações</p>
         <h1 className="display-1 text-branco">Bangalôs</h1>
