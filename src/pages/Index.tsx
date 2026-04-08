@@ -167,7 +167,7 @@ const Index = () => (
             {experiencias.map((exp, i) => (
               <div key={i} className="group relative overflow-hidden aspect-[4/5]">
                 <img
-                  src={`https://images.unsplash.com/${exp.img}?w=600&h=750&fit=crop`}
+                  src={exp.isLocal ? exp.img : `https://images.unsplash.com/${exp.img}?w=600&h=750&fit=crop`}
                   alt={exp.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
