@@ -44,7 +44,7 @@ const BangalosListagem = () => (
 
     <section className="relative h-[60vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1920&h=1080&fit=crop&q=80"
+        src={bangalosHero}
         alt="Bangalôs de luxo Amaná Hotel"
         className="absolute inset-0 w-full h-full object-cover"
       />
