@@ -1,4 +1,5 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import aranduHero from "@/assets/arandu-hero.jpg";
 import arandu1 from "@/assets/arandu-1.jpg";
 import arandu2 from "@/assets/arandu-2.jpg";
 import arandu3 from "@/assets/arandu-3.jpg";
