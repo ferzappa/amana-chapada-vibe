@@ -1,4 +1,13 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import arandu1 from "@/assets/arandu-1.jpg";
+import arandu2 from "@/assets/arandu-2.jpg";
+import arandu3 from "@/assets/arandu-3.jpg";
+import arandu4 from "@/assets/arandu-4.jpg";
+import arandu5 from "@/assets/arandu-5.jpg";
+import arandu6 from "@/assets/arandu-6.jpg";
+import arandu7 from "@/assets/arandu-7.jpg";
+import arandu8 from "@/assets/arandu-8.jpg";
+import arandu9 from "@/assets/arandu-9.jpg";
 
 const BangaloArandu = () => (
   <BangaloTemplate
@@ -21,13 +30,8 @@ const BangaloArandu = () => (
         "Frigobar abastecido",
         "Vista para o cerrado",
       ],
-      heroImg: "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1920&h=1080&fit=crop&q=80",
-      galleryImgs: [
-        "https://images.unsplash.com/photo-1560185008-b033106af5c8?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1564078516393-cf04bd966897?w=700&h=525&fit=crop",
-      ],
+      heroImg: arandu1,
+      galleryImgs: [arandu4, arandu6, arandu2, arandu8, arandu3, arandu9, arandu5, arandu7],
     }}
   />
 );

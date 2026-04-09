@@ -1,4 +1,12 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import angaturama1 from "@/assets/angaturama-1.jpg";
+import angaturama2 from "@/assets/angaturama-2.jpg";
+import angaturama3 from "@/assets/angaturama-3.jpg";
+import angaturama4 from "@/assets/angaturama-4.jpg";
+import angaturama5 from "@/assets/angaturama-5.jpg";
+import angaturama6 from "@/assets/angaturama-6.jpg";
+import angaturama7 from "@/assets/angaturama-7.jpg";
+import angaturama8 from "@/assets/angaturama-8.jpg";
 
 const BangaloAngaturama = () => (
   <BangaloTemplate
@@ -21,13 +29,8 @@ const BangaloAngaturama = () => (
         "Frigobar abastecido",
         "Vista para a vegetação nativa",
       ],
-      heroImg: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&h=1080&fit=crop&q=80",
-      galleryImgs: [
-        "https://images.unsplash.com/photo-1590490360182-c33d82de0e5c?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=700&h=525&fit=crop",
-      ],
+      heroImg: angaturama1,
+      galleryImgs: [angaturama2, angaturama3, angaturama4, angaturama5, angaturama6, angaturama7, angaturama8],
     }}
   />
 );
