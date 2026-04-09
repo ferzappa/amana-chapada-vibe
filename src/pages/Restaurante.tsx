@@ -2,6 +2,7 @@ import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import restauranteHero from "@/assets/restaurante-hero.jpg";
+import restaurantePrato from "@/assets/restaurante-prato.jpg";
 
 const Restaurante = () => (
   <Layout>
@@ -45,7 +46,7 @@ const Restaurante = () => (
             </div>
             <div className="img-hover">
               <img
-                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&h=900&fit=crop"
+                src={restaurantePrato}
                 alt="Prato do restaurante Amaná com ingredientes do cerrado"
                 className="w-full h-[450px] object-cover"
                 loading="lazy"
