@@ -29,7 +29,7 @@ const BangaloAngaturama = () => (
         "Frigobar abastecido",
         "Vista para a vegetação nativa",
       ],
-      heroImg: angaturama1,
+      heroImg: angaturamHero,
       galleryImgs: [angaturama2, angaturama3, angaturama4, angaturama5, angaturama6, angaturama7, angaturama8],
     }}
   />
