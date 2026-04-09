@@ -41,6 +41,7 @@ import arandu9 from "@/assets/arandu-9.jpg";
 const amanaImages = [amana1, amana2, amana3, amana4, amana5, amana6];
 const aneciImages = [aneci1, aneci2, aneci3, aneci4, aneci5, aneci6];
 const angaturamImages = [angaturama1, angaturama2, angaturama3, angaturama4, angaturama5, angaturama6, angaturama7, angaturama8];
+const aranduImages = [arandu1, arandu2, arandu3, arandu4, arandu5, arandu6, arandu7, arandu8, arandu9];
 
 const bangalos = [
   {
