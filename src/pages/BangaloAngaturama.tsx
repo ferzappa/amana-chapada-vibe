@@ -1,5 +1,5 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
-import angaturama1 from "@/assets/angaturama-1.jpg";
+import angaturamHero from "@/assets/angaturama-hero.jpg";
 import angaturama2 from "@/assets/angaturama-2.jpg";
 import angaturama3 from "@/assets/angaturama-3.jpg";
 import angaturama4 from "@/assets/angaturama-4.jpg";
