@@ -1,5 +1,5 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
-import angaturama1 from "@/assets/angaturama-1.jpg";
+import angaturamHero from "@/assets/angaturama-hero.jpg";
 import angaturama2 from "@/assets/angaturama-2.jpg";
 import angaturama3 from "@/assets/angaturama-3.jpg";
 import angaturama4 from "@/assets/angaturama-4.jpg";
@@ -29,7 +29,7 @@ const BangaloAngaturama = () => (
         "Frigobar abastecido",
         "Vista para a vegetação nativa",
       ],
-      heroImg: angaturama1,
+      heroImg: angaturamHero,
       galleryImgs: [angaturama2, angaturama3, angaturama4, angaturama5, angaturama6, angaturama7, angaturama8],
     }}
   />
