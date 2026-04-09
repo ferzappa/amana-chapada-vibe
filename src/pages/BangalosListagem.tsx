@@ -28,6 +28,16 @@ import angaturama6 from "@/assets/angaturama-6.jpg";
 import angaturama7 from "@/assets/angaturama-7.jpg";
 import angaturama8 from "@/assets/angaturama-8.jpg";
 
+import arandu1 from "@/assets/arandu-1.jpg";
+import arandu2 from "@/assets/arandu-2.jpg";
+import arandu3 from "@/assets/arandu-3.jpg";
+import arandu4 from "@/assets/arandu-4.jpg";
+import arandu5 from "@/assets/arandu-5.jpg";
+import arandu6 from "@/assets/arandu-6.jpg";
+import arandu7 from "@/assets/arandu-7.jpg";
+import arandu8 from "@/assets/arandu-8.jpg";
+import arandu9 from "@/assets/arandu-9.jpg";
+
 const amanaImages = [amana1, amana2, amana3, amana4, amana5, amana6];
 const aneciImages = [aneci1, aneci2, aneci3, aneci4, aneci5, aneci6];
 const angaturamImages = [angaturama1, angaturama2, angaturama3, angaturama4, angaturama5, angaturama6, angaturama7, angaturama8];
