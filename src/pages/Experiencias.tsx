@@ -5,6 +5,7 @@ import trilhasImg from "@/assets/trilhas-hero-new.jpg";
 import cachoeirasImg from "@/assets/cachoeiras.jpg";
 import experienciasHeroImg from "@/assets/experiencias-hero.jpg";
 import passeiosImg from "@/assets/passeios-personalizados.jpg";
+import imersaoImg from "@/assets/imersao-natureza.jpg";
 
 const jornadas = [
   {
