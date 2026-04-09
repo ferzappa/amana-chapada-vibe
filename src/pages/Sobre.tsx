@@ -17,7 +17,7 @@ const blocos = [
   { title: "Cachoeira Privativa", desc: "Uma cachoeira exclusiva para hóspedes, acessível por trilha suave em meio à mata nativa.", img: "/lovable-uploads/cachoeira-privativa.jpg" },
   { title: "Trilhas", desc: "Caminhos sinalizados por entre a vegetação do cerrado, com guias especializados disponíveis.", img: "photo-1551632811-561732d1e306" },
   { title: "Sauna a Lenha", desc: "Sauna tradicional a lenha, perfeita para rituais de descompressão após um dia de aventuras.", img: "photo-1540555700478-4be289fbec6e" },
-  { title: "Beach Tennis", desc: "Quadra de areia em meio à natureza para momentos de lazer e atividade ao ar livre.", img: "photo-1554068865-24cecd4e34b8" },
+  { title: "Beach Tennis", desc: "Quadra de areia em meio à natureza para momentos de lazer e atividade ao ar livre.", img: "/lovable-uploads/88fe57b0-a5c1-4904-97a9-c6904a5d6323.jpg" },
 ];
 
 const Sobre = () => (
