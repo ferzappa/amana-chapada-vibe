@@ -12,7 +12,15 @@ import amana4 from "@/assets/amana-4.jpg";
 import amana5 from "@/assets/amana-5.jpg";
 import amana6 from "@/assets/amana-6.jpg";
 
+import aneci1 from "@/assets/aneci-1.jpg";
+import aneci2 from "@/assets/aneci-2.jpg";
+import aneci3 from "@/assets/aneci-3.jpg";
+import aneci4 from "@/assets/aneci-4.jpg";
+import aneci5 from "@/assets/aneci-5.jpg";
+import aneci6 from "@/assets/aneci-6.jpg";
+
 const amanaImages = [amana1, amana2, amana3, amana4, amana5, amana6];
+const aneciImages = [aneci1, aneci2, aneci3, aneci4, aneci5, aneci6];
 
 const bangalos = [
   {
@@ -42,7 +50,8 @@ const bangalos = [
     slug: "/bangalo-aneci",
     area: "62m² + varanda",
     desc: "Varanda ampla com vista para a vegetação nativa. Simplicidade sofisticada.",
-    img: "photo-1542314831-068cd1dbfeeb",
+    img: "",
+    localImages: aneciImages,
   },
 ];
 
