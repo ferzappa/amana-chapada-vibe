@@ -12,7 +12,7 @@ const diferenciais = [
 ];
 
 const blocos = [
-  { title: "Piscina", desc: "Piscina de borda infinita com vista para o cerrado. Um convite à contemplação que se estende até o horizonte.", img: "photo-1575429198097-0414ec08e8cd" },
+  { title: "Piscina", desc: "Piscina de borda infinita com vista para o cerrado. Um convite à contemplação que se estende até o horizonte.", img: "/lovable-uploads/d5316166-2663-466e-b5be-970bbdcde9ba.jpg" },
   { title: "Academia", desc: "Equipamentos modernos em ambiente integrado à natureza. Treine com vista para a paisagem do cerrado.", img: "photo-1534438327276-14e5300c3a48" },
   { title: "Cachoeira Privativa", desc: "Uma cachoeira exclusiva para hóspedes, acessível por trilha suave em meio à mata nativa.", img: "/lovable-uploads/cachoeira-privativa.jpg" },
   { title: "Trilhas", desc: "Caminhos sinalizados por entre a vegetação do cerrado, com guias especializados disponíveis.", img: "photo-1551632811-561732d1e306" },
