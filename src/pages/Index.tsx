@@ -52,7 +52,7 @@ const Index = () => (
       >
         <source src="/videos/hero.mp4" type="video/mp4" />
       </video>
-      <div className="absolute inset-0 bg-chumbo/50" />
+      
       <div className="relative z-10 text-center text-branco px-6 max-w-3xl">
         <p className="label-text text-dourado mb-6 animate-fade-in-up">Chapada dos Veadeiros</p>
         <h1 className="display-1 text-branco mb-8" style={{ animationDelay: "0.2s", animationFillMode: "both" }}>
