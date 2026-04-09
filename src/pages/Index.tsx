@@ -4,7 +4,7 @@ import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import cachoeirasExclusivasImg from "@/assets/cachoeiras-exclusivas.jpg";
 
-const heroImage = "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&h=1080&fit=crop&q=80";
+import heroImage from "@/assets/hero-poster.jpg";
 
 const experiencias = [
   { title: "Cachoeiras Exclusivas", img: cachoeirasExclusivasImg, isLocal: true, desc: "Trilhas privativas até cachoeiras em meio ao cerrado preservado" },
