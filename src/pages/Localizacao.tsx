@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import localizacaoHero from "@/assets/localizacao-hero.jpg";
 
 const Localizacao = () => (
   <Layout>
@@ -11,7 +12,7 @@ const Localizacao = () => (
 
     <section className="relative h-[60vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop&q=80"
+        src={localizacaoHero}
         alt="Localização do Amaná Hotel na Chapada dos Veadeiros"
         className="absolute inset-0 w-full h-full object-cover"
       />
