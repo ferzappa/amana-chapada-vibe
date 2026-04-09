@@ -65,7 +65,8 @@ const bangalos = [
     slug: "/bangalo-arandu",
     area: "68m²",
     desc: "Ofurô aquecido ao ar livre, em perfeita harmonia com os sons do cerrado.",
-    img: "photo-1551882547-ff40c63fe5fa",
+    img: "",
+    localImages: aranduImages,
   },
   {
     name: "Bangalô Aneci",
