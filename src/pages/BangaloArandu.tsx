@@ -31,8 +31,8 @@ const BangaloArandu = () => (
         "Frigobar abastecido",
         "Vista para o cerrado",
       ],
-      heroImg: arandu1,
-      galleryImgs: [arandu4, arandu6, arandu2, arandu8, arandu3, arandu9, arandu5, arandu7],
+      heroImg: aranduHero,
+      galleryImgs: [arandu4, arandu6, arandu2, arandu8, arandu3, arandu9, arandu5, arandu7, arandu1],
     }}
   />
 );
