@@ -16,7 +16,7 @@ const blocos = [
   { title: "Academia", desc: "Equipamentos modernos em ambiente integrado à natureza. Treine com vista para a paisagem do cerrado.", img: "/lovable-uploads/35ed9e0f-135f-477d-9291-f84a6d42d062.png" },
   { title: "Cachoeira Privativa", desc: "Uma cachoeira exclusiva para hóspedes, acessível por trilha suave em meio à mata nativa.", img: "/lovable-uploads/cachoeira-privativa.jpg" },
   { title: "Trilhas", desc: "Caminhos sinalizados por entre a vegetação do cerrado, com guias especializados disponíveis.", img: "photo-1551632811-561732d1e306" },
-  { title: "Sauna a Lenha", desc: "Um convite ao relaxamento e à renovação, onde o calor da sauna acolhe o corpo e desacelera o ritmo.", img: "photo-1540555700478-4be289fbec6e" },
+  { title: "Sauna Amaná", desc: "Um convite ao relaxamento e à renovação, onde o calor da sauna acolhe o corpo e desacelera o ritmo.", img: "photo-1540555700478-4be289fbec6e" },
   { title: "Beach Tennis", desc: "Quadra de areia em meio à natureza para momentos de lazer e atividade ao ar livre.", img: "/lovable-uploads/88fe57b0-a5c1-4904-97a9-c6904a5d6323.jpg" },
 ];
 
