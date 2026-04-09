@@ -2,7 +2,17 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import BangaloCarousel from "@/components/BangaloCarousel";
 import bangalosHero from "@/assets/bangalos-hero.jpg";
+
+import amana1 from "@/assets/amana-1.jpg";
+import amana2 from "@/assets/amana-2.jpg";
+import amana3 from "@/assets/amana-3.jpg";
+import amana4 from "@/assets/amana-4.jpg";
+import amana5 from "@/assets/amana-5.jpg";
+import amana6 from "@/assets/amana-6.jpg";
+
+const amanaImages = [amana1, amana2, amana3, amana4, amana5, amana6];
 
 const bangalos = [
   {
@@ -10,7 +20,8 @@ const bangalos = [
     slug: "/bangalo-amana",
     area: "85m²",
     desc: "O mais espaçoso. Hidromassagem dupla, mini adega e vista panorâmica para o cerrado.",
-    img: "photo-1582719478250-c89cae4dc85b",
+    img: "",
+    localImages: amanaImages,
   },
   {
     name: "Bangalô Angaturama",
@@ -70,13 +81,19 @@ const BangalosListagem = () => (
           {bangalos.map((b, i) => (
             <SectionReveal key={i}>
               <Link to={b.slug} className="group block">
-                <div className="img-hover aspect-[4/3] mb-6">
-                  <img
-                    src={`https://images.unsplash.com/${b.img}?w=700&h=525&fit=crop`}
-                    alt={b.name}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
+                <div className="img-hover mb-6">
+                  {b.localImages ? (
+                    <BangaloCarousel images={b.localImages} alt={b.name} />
+                  ) : (
+                    <div className="aspect-[4/3]">
+                      <img
+                        src={`https://images.unsplash.com/${b.img}?w=700&h=525&fit=crop`}
+                        alt={b.name}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
                 </div>
                 <div className="flex items-start justify-between gap-4 mb-3">
                   <h2 className="font-serif text-2xl text-foreground group-hover:text-accent transition-colors duration-300">{b.name}</h2>
