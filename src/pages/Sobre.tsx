@@ -83,7 +83,7 @@ const Sobre = () => (
             <div className={`grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center ${i % 2 !== 0 ? "direction-rtl" : ""}`}>
               <div className={`img-hover ${i % 2 !== 0 ? "lg:order-2" : ""}`}>
                 <img
-                  src={`https://images.unsplash.com/${bloco.img}?w=800&h=600&fit=crop`}
+                  src={bloco.img.startsWith("/") ? bloco.img : `https://images.unsplash.com/${bloco.img}?w=800&h=600&fit=crop`}
                   alt={`${bloco.title} no Amaná Hotel`}
                   className="w-full h-[350px] lg:h-[450px] object-cover"
                   loading="lazy"
