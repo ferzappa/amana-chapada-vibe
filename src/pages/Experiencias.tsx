@@ -3,6 +3,7 @@ import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import trilhasImg from "@/assets/trilhas-hero.jpg";
 import cachoeirasImg from "@/assets/cachoeiras.jpg";
+import experienciasHeroImg from "@/assets/experiencias-hero.jpg";
 
 const jornadas = [
   {
@@ -38,7 +39,7 @@ const Experiencias = () => (
 
     <section className="relative h-[70vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&h=1080&fit=crop&q=80"
+        src={experienciasHeroImg}
         alt="Experiências na Chapada dos Veadeiros"
         className="absolute inset-0 w-full h-full object-cover"
       />
