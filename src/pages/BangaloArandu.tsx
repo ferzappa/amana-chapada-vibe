@@ -1,4 +1,5 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import aranduHero from "@/assets/arandu-hero.jpg";
 import arandu1 from "@/assets/arandu-1.jpg";
 import arandu2 from "@/assets/arandu-2.jpg";
 import arandu3 from "@/assets/arandu-3.jpg";
@@ -30,8 +31,8 @@ const BangaloArandu = () => (
         "Frigobar abastecido",
         "Vista para o cerrado",
       ],
-      heroImg: arandu1,
-      galleryImgs: [arandu4, arandu6, arandu2, arandu8, arandu3, arandu9, arandu5, arandu7],
+      heroImg: aranduHero,
+      galleryImgs: [arandu4, arandu6, arandu2, arandu8, arandu3, arandu9, arandu5, arandu7, arandu1],
     }}
   />
 );
