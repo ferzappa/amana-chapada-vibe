@@ -1,30 +1,24 @@
 
 
-# Comprimir hero.mp4
+# Corrigir imagens quebradas na página Sobre
 
-## Diagnóstico atual
-| Propriedade | Valor |
-|---|---|
-| Tamanho | **62 MB** (muito pesado para web) |
-| Duração | 1min 07s |
-| Resolução | 1920×1080 |
-| Codec | HEVC (H.265) |
-| Bitrate | ~7.5 Mbps |
-| FPS | 30 |
+## Problema
+Três imagens na página **Sobre** (`Sobre.tsx`) apontam para arquivos em `/lovable-uploads/` que não existem no diretório `public/lovable-uploads/`:
 
-**Problemas**: 62 MB é excessivo para um hero video — o ideal para web é 5-10 MB. Além disso, HEVC não tem suporte universal em navegadores (Safari OK, mas Chrome/Firefox parcial).
+| Seção | Caminho referenciado | Existe? |
+|---|---|---|
+| Piscina | `/lovable-uploads/d5316166-...jpg` | Não |
+| Academia | `/lovable-uploads/35ed9e0f-...png` | Não |
+| Cachoeira Privativa | `/lovable-uploads/cachoeira-privativa.jpg` | Sim |
+| Beach Tennis | `/lovable-uploads/88fe57b0-...jpg` | Não |
 
-## O que será feito
+## Solução
 
-1. **Recodificar para H.264** (compatibilidade universal) com bitrate reduzido (~1.5 Mbps)
-2. **Reduzir duração** para ~15-20s (hero videos longos não agregam valor e pesam muito)
-3. **Remover faixa de áudio** (já usa `muted`)
-4. **Meta estimada**: arquivo final entre 4-8 MB
+Copiar os 3 arquivos originais (que foram enviados pelo usuário em mensagens anteriores) para `public/lovable-uploads/` com os nomes corretos:
 
-Comando de compressão:
-```
-ffmpeg -i hero.mp4 -t 20 -c:v libx264 -crf 28 -preset slow -an -movflags +faststart hero-compressed.mp4
-```
+1. `user-uploads://d5316166-2663-466e-b5be-970bbdcde9ba.jpg` → `public/lovable-uploads/d5316166-2663-466e-b5be-970bbdcde9ba.jpg` (Piscina)
+2. `user-uploads://35ed9e0f-135f-477d-9291-f84a6d42d062.png` → `public/lovable-uploads/35ed9e0f-135f-477d-9291-f84a6d42d062.png` (Academia)
+3. `user-uploads://88fe57b0-a5c1-4904-97a9-c6904a5d6323.jpg` → `public/lovable-uploads/88fe57b0-a5c1-4904-97a9-c6904a5d6323.jpg` (Beach Tennis)
 
-Se preferir manter a duração completa (67s), o arquivo ficará ~15 MB — ainda uma melhoria de 75%.
+Nenhuma alteração de código necessária — apenas copiar os arquivos para o local correto.
 
