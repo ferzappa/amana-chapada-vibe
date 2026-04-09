@@ -19,8 +19,18 @@ import aneci4 from "@/assets/aneci-4.jpg";
 import aneci5 from "@/assets/aneci-5.jpg";
 import aneci6 from "@/assets/aneci-6.jpg";
 
+import angaturama1 from "@/assets/angaturama-1.jpg";
+import angaturama2 from "@/assets/angaturama-2.jpg";
+import angaturama3 from "@/assets/angaturama-3.jpg";
+import angaturama4 from "@/assets/angaturama-4.jpg";
+import angaturama5 from "@/assets/angaturama-5.jpg";
+import angaturama6 from "@/assets/angaturama-6.jpg";
+import angaturama7 from "@/assets/angaturama-7.jpg";
+import angaturama8 from "@/assets/angaturama-8.jpg";
+
 const amanaImages = [amana1, amana2, amana3, amana4, amana5, amana6];
 const aneciImages = [aneci1, aneci2, aneci3, aneci4, aneci5, aneci6];
+const angaturamImages = [angaturama1, angaturama2, angaturama3, angaturama4, angaturama5, angaturama6, angaturama7, angaturama8];
 
 const bangalos = [
   {
@@ -36,7 +46,8 @@ const bangalos = [
     slug: "/bangalo-angaturama",
     area: "68m²",
     desc: "Elegância discreta com hidromassagem privativa e deck integrado à natureza.",
-    img: "photo-1566073771259-6a8506099945",
+    img: "",
+    localImages: angaturamImages,
   },
   {
     name: "Bangalô Arandu",
