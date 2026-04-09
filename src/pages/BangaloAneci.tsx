@@ -1,4 +1,5 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import aneciHero from "@/assets/aneci-hero.jpg";
 import aneci1 from "@/assets/aneci-1.jpg";
 import aneci2 from "@/assets/aneci-2.jpg";
 import aneci3 from "@/assets/aneci-3.jpg";
@@ -26,8 +27,8 @@ const BangaloAneci = () => (
         "Frigobar abastecido",
         "Vista para a vegetação nativa",
       ],
-      heroImg: aneci1,
-      galleryImgs: [aneci2, aneci3, aneci4, aneci5, aneci6],
+      heroImg: aneciHero,
+      galleryImgs: [aneci1, aneci2, aneci3, aneci4, aneci5, aneci6],
     }}
   />
 );
