@@ -4,6 +4,7 @@ import SEO from "@/components/SEO";
 import trilhasImg from "@/assets/trilhas-hero-new.jpg";
 import cachoeirasImg from "@/assets/cachoeiras.jpg";
 import experienciasHeroImg from "@/assets/experiencias-hero.jpg";
+import passeiosImg from "@/assets/passeios-personalizados.jpg";
 
 const jornadas = [
   {
@@ -21,7 +22,8 @@ const jornadas = [
   {
     title: "Passeios Personalizados",
     desc: "Roteiros desenhados sob medida: observação de estrelas, nascer do sol no mirante, piquenique gourmet em meio à natureza. Tudo ao seu tempo.",
-    img: "photo-1506905925346-21bda4d32df4",
+    img: passeiosImg,
+    isLocal: true,
   },
   {
     title: "Imersão na Natureza",
