@@ -1,12 +1,30 @@
 
 
-# Enquadrar melhor a foto do prato no Restaurante
+# Comprimir hero.mp4
 
-**Arquivo**: `src/pages/Restaurante.tsx` (linha 51)
+## Diagnóstico atual
+| Propriedade | Valor |
+|---|---|
+| Tamanho | **62 MB** (muito pesado para web) |
+| Duração | 1min 07s |
+| Resolução | 1920×1080 |
+| Codec | HEVC (H.265) |
+| Bitrate | ~7.5 Mbps |
+| FPS | 30 |
 
-Ajustar o `object-position` da imagem para mostrar o prato completo e parte da taça. Atualmente usa `object-cover` com posição padrão (center), que pode estar cortando partes importantes.
+**Problemas**: 62 MB é excessivo para um hero video — o ideal para web é 5-10 MB. Além disso, HEVC não tem suporte universal em navegadores (Safari OK, mas Chrome/Firefox parcial).
 
-**Alteração**: Adicionar `object-position: center 60%` (ou similar) para deslocar o enquadramento levemente para baixo, revelando mais do prato e a taça. Também aumentar a altura de `h-[450px]` para `h-[500px]` se necessário para dar mais espaço vertical.
+## O que será feito
 
-Pode ser necessário ajustar o valor exato do `object-position` após visualizar o resultado.
+1. **Recodificar para H.264** (compatibilidade universal) com bitrate reduzido (~1.5 Mbps)
+2. **Reduzir duração** para ~15-20s (hero videos longos não agregam valor e pesam muito)
+3. **Remover faixa de áudio** (já usa `muted`)
+4. **Meta estimada**: arquivo final entre 4-8 MB
+
+Comando de compressão:
+```
+ffmpeg -i hero.mp4 -t 20 -c:v libx264 -crf 28 -preset slow -an -movflags +faststart hero-compressed.mp4
+```
+
+Se preferir manter a duração completa (67s), o arquivo ficará ~15 MB — ainda uma melhoria de 75%.
 
