@@ -1,4 +1,10 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import aneci1 from "@/assets/aneci-1.jpg";
+import aneci2 from "@/assets/aneci-2.jpg";
+import aneci3 from "@/assets/aneci-3.jpg";
+import aneci4 from "@/assets/aneci-4.jpg";
+import aneci5 from "@/assets/aneci-5.jpg";
+import aneci6 from "@/assets/aneci-6.jpg";
 
 const BangaloAneci = () => (
   <BangaloTemplate
@@ -20,13 +26,8 @@ const BangaloAneci = () => (
         "Frigobar abastecido",
         "Vista para a vegetação nativa",
       ],
-      heroImg: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1920&h=1080&fit=crop&q=80",
-      galleryImgs: [
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1588854337236-6889d631faa8?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=700&h=525&fit=crop",
-      ],
+      heroImg: aneci1,
+      galleryImgs: [aneci2, aneci3, aneci4, aneci5, aneci6],
     }}
   />
 );

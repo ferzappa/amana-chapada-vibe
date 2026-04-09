@@ -1,4 +1,10 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import amana1 from "@/assets/amana-1.jpg";
+import amana2 from "@/assets/amana-2.jpg";
+import amana3 from "@/assets/amana-3.jpg";
+import amana4 from "@/assets/amana-4.jpg";
+import amana5 from "@/assets/amana-5.jpg";
+import amana6 from "@/assets/amana-6.jpg";
 
 const BangaloAmana = () => (
   <BangaloTemplate
@@ -22,13 +28,8 @@ const BangaloAmana = () => (
         "Frigobar abastecido",
         "Deck privativo",
       ],
-      heroImg: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1920&h=1080&fit=crop&q=80",
-      galleryImgs: [
-        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=700&h=525&fit=crop",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=700&h=525&fit=crop",
-      ],
+      heroImg: amana5,
+      galleryImgs: [amana2, amana4, amana6, amana1, amana3],
     }}
   />
 );
