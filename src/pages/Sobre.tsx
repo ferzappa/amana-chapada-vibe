@@ -14,7 +14,7 @@ const diferenciais = [
 const blocos = [
   { title: "Piscina", desc: "Piscina de borda infinita com vista para o cerrado. Um convite à contemplação que se estende até o horizonte.", img: "photo-1575429198097-0414ec08e8cd" },
   { title: "Academia", desc: "Equipamentos modernos em ambiente integrado à natureza. Treine com vista para a paisagem do cerrado.", img: "photo-1534438327276-14e5300c3a48" },
-  { title: "Cachoeira Privativa", desc: "Uma cachoeira exclusiva para hóspedes, acessível por trilha suave em meio à mata nativa.", img: "photo-1432405972618-c6b0cfba81f0" },
+  { title: "Cachoeira Privativa", desc: "Uma cachoeira exclusiva para hóspedes, acessível por trilha suave em meio à mata nativa.", img: "/lovable-uploads/cachoeira-privativa.jpg" },
   { title: "Trilhas", desc: "Caminhos sinalizados por entre a vegetação do cerrado, com guias especializados disponíveis.", img: "photo-1551632811-561732d1e306" },
   { title: "Sauna a Lenha", desc: "Sauna tradicional a lenha, perfeita para rituais de descompressão após um dia de aventuras.", img: "photo-1540555700478-4be289fbec6e" },
   { title: "Beach Tennis", desc: "Quadra de areia em meio à natureza para momentos de lazer e atividade ao ar livre.", img: "photo-1554068865-24cecd4e34b8" },
