@@ -1,4 +1,5 @@
 import BangaloTemplate from "@/components/BangaloTemplate";
+import amanaHero from "@/assets/amana-hero.jpg";
 import amana1 from "@/assets/amana-1.jpg";
 import amana2 from "@/assets/amana-2.jpg";
 import amana3 from "@/assets/amana-3.jpg";
