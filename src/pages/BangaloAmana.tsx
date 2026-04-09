@@ -29,8 +29,8 @@ const BangaloAmana = () => (
         "Frigobar abastecido",
         "Deck privativo",
       ],
-      heroImg: amana5,
-      galleryImgs: [amana2, amana4, amana6, amana1, amana3],
+      heroImg: amanaHero,
+      galleryImgs: [amana2, amana4, amana6, amana1, amana3, amana5],
     }}
   />
 );
