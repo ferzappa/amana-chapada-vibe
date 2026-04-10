@@ -69,7 +69,7 @@ const Footer = () => (
             <Instagram size={14} /> @amanahotelchapada
           </a>
           <div className="grid grid-cols-3 gap-2 mt-6">
-            {instagramPlaceholders.map((id, i) => (
+            {instagramImages.map((src, i) => (
               <a
                 key={i}
                 href="https://www.instagram.com/amanahotelchapada/"
@@ -78,7 +78,7 @@ const Footer = () => (
                 className="aspect-square overflow-hidden group relative"
               >
                 <img
-                  src={`https://images.unsplash.com/${id}?w=200&h=200&fit=crop`}
+                  src={src}
                   alt="Amaná Hotel Instagram"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
