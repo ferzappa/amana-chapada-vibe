@@ -40,20 +40,36 @@ const Sobre = () => (
       </div>
     </section>
 
-    {/* Texto */}
+    {/* Texto + Vídeo */}
     <section className="section-padding bg-branco">
-      <div className="container-narrow max-w-3xl">
+      <div className="container-narrow">
         <SectionReveal>
-          <p className="text-lg text-foreground leading-relaxed mb-6">
-            O Amaná nasceu da crença de que o verdadeiro luxo não se mede em estrelas, mas em silêncio.
-            Em 40 hectares de cerrado preservado, entre a Vila de São Jorge e o Parque Nacional da Chapada dos Veadeiros,
-            criamos um refúgio onde a arquitetura se curva à paisagem e o tempo se ajusta ao seu ritmo.
-          </p>
-          <p className="text-muted-foreground">
-            São 12 bangalôs desenhados com materiais naturais, todos com vista para a imensidão do cerrado goiano.
-            Cada detalhe — dos lençóis Trousseau 600 fios às amenities orgânicas — foi pensado para criar
-            uma experiência de hospedagem que permanece na memória muito depois do check-out.
-          </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="aspect-[9/16] overflow-hidden max-h-[600px] mx-auto lg:mx-0">
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                className="w-full h-full object-cover"
+              >
+                <source src="/videos/sobre-hotel.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div>
+              <p className="text-lg text-foreground leading-relaxed mb-6">
+                O Amaná nasceu da crença de que o verdadeiro luxo não se mede em estrelas, mas em silêncio.
+                Em 40 hectares de cerrado preservado, entre a Vila de São Jorge e o Parque Nacional da Chapada dos Veadeiros,
+                criamos um refúgio onde a arquitetura se curva à paisagem e o tempo se ajusta ao seu ritmo.
+              </p>
+              <p className="text-muted-foreground">
+                São 12 bangalôs desenhados com materiais naturais, todos com vista para a imensidão do cerrado goiano.
+                Cada detalhe — dos lençóis Trousseau 600 fios às amenities orgânicas — foi pensado para criar
+                uma experiência de hospedagem que permanece na memória muito depois do check-out.
+              </p>
+            </div>
+          </div>
         </SectionReveal>
       </div>
     </section>
