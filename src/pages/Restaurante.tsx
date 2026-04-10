@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
@@ -73,14 +74,12 @@ const Restaurante = () => (
           >
             Reservar mesa
           </a>
-          <a
-            href="https://wa.me/5561995080641?text=Olá!%20Gostaria%20de%20ver%20o%20cardápio%20do%20Restaurante%20Amaná."
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/cardapio-amana-hotel"
             className="inline-block label-text text-[12px] border border-primary text-primary px-8 py-4 hover:bg-primary hover:text-primary-foreground transition-all duration-500"
           >
             Ver cardápio
-          </a>
+          </Link>
         </div>
       </SectionReveal>
     </section>

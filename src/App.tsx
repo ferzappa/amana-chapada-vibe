@@ -16,6 +16,7 @@ import BangaloAneci from "./pages/BangaloAneci";
 import Reservas from "./pages/Reservas";
 import Spa from "./pages/Spa";
 import Restaurante from "./pages/Restaurante";
+import Cardapio from "./pages/Cardapio";
 import Experiencias from "./pages/Experiencias";
 import Localizacao from "./pages/Localizacao";
 import Wedding from "./pages/Wedding";
@@ -49,6 +50,7 @@ const App = () => (
           <Route path="/reservas-hotel-chapada-dos-veadeiros" element={<Reservas />} />
           <Route path="/spa-chapada-dos-veadeiros" element={<Spa />} />
           <Route path="/restaurante-chapada-dos-veadeiros" element={<Restaurante />} />
+          <Route path="/cardapio-amana-hotel" element={<Cardapio />} />
           <Route path="/experiencias-chapada-dos-veadeiros" element={<Experiencias />} />
           <Route path="/localizacao-amana-hotel" element={<Localizacao />} />
           <Route path="/wedding-chapada-dos-veadeiros" element={<Wedding />} />
