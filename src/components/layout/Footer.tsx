@@ -10,13 +10,13 @@ const quickLinks = [
   { label: "Reservas", href: "/reservas-hotel-chapada-dos-veadeiros" },
 ];
 
-const instagramPlaceholders = [
-  "photo-1571896349842-33c89424de2d",
-  "photo-1520250497591-112f2f40a3f4",
-  "photo-1582719478250-c89cae4dc85b",
-  "photo-1566073771259-6a8506099945",
-  "photo-1551882547-ff40c63fe5fa",
-  "photo-1542314831-068cd1dbfeeb",
+const instagramImages = [
+  "/lovable-uploads/insta-27-02.png",
+  "/lovable-uploads/insta-12-01.png",
+  "/lovable-uploads/insta-08-01.png",
+  "/lovable-uploads/insta-26-12.png",
+  "/lovable-uploads/insta-09-11.png",
+  "/lovable-uploads/insta-28-11.png",
 ];
 
 const Footer = () => (
@@ -69,7 +69,7 @@ const Footer = () => (
             <Instagram size={14} /> @amanahotelchapada
           </a>
           <div className="grid grid-cols-3 gap-2 mt-6">
-            {instagramPlaceholders.map((id, i) => (
+            {instagramImages.map((src, i) => (
               <a
                 key={i}
                 href="https://www.instagram.com/amanahotelchapada/"
@@ -78,7 +78,7 @@ const Footer = () => (
                 className="aspect-square overflow-hidden group relative"
               >
                 <img
-                  src={`https://images.unsplash.com/${id}?w=200&h=200&fit=crop`}
+                  src={src}
                   alt="Amaná Hotel Instagram"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
