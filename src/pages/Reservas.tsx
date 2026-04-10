@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import reservasHero from "@/assets/reservas-hero.jpg";
 
 const Reservas = () => (
   <Layout>
@@ -11,7 +12,7 @@ const Reservas = () => (
 
     <section className="relative h-[50vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1920&h=800&fit=crop&q=80"
+        src={reservasHero}
         alt="Reserve no Amaná Hotel"
         className="absolute inset-0 w-full h-full object-cover"
       />
