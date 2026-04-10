@@ -5,6 +5,13 @@ import maytreaImg from "@/assets/cardapio/maytrea-sandwich.jpg";
 import fileCarroselImg from "@/assets/cardapio/file-carrosel.jpg";
 import brownieImg from "@/assets/cardapio/brownie-cumbaru.jpg";
 import crepeImg from "@/assets/cardapio/crepe-barroco.jpg";
+import pastelImg from "@/assets/cardapio/pastel-santa-barbara.jpg";
+import pescaImg from "@/assets/cardapio/pesca-da-lua.jpg";
+import polvoImg from "@/assets/cardapio/polvo-aneci.jpg";
+import queijinhoImg from "@/assets/cardapio/queijinho-candaru.jpg";
+import ricotaImg from "@/assets/cardapio/ricota-edwalli.jpg";
+import risotoImg from "@/assets/cardapio/risoto-veredas.jpg";
+import saladaImg from "@/assets/cardapio/salada-amana.jpg";
 
 export interface MenuItem {
   name: string;
@@ -27,13 +34,13 @@ export const menuData: MenuCategory[] = [
       { name: "Burrata Morro da Baleia", description: "Burrata cremosa, pesto de barú e tomates confitados na baunilha do cerrado.", price: 89, image: burratImg },
       { name: "Truffle Fries", description: "Batata frita trufada, queijo parmesão ralado e maionese trufada.", price: 50 },
       { name: "Spicy Fries", description: "Batata frita com páprica defumada e pimenta de macaco, acompanhada de molho aioli.", price: 48 },
-      { name: "Queijinho Candarú", description: "Queijo gouda empanado acompanhado de chutney de frutas do cerrado levemente apimentado.", price: 68 },
-      { name: "Pastel Santa Bárbara", description: "Mini pastéis recheados de queijo Brie e servidos com melaço de cana infusionado na baunilha do cerrado.", price: 68 },
+      { name: "Queijinho Candarú", description: "Queijo gouda empanado acompanhado de chutney de frutas do cerrado levemente apimentado.", price: 68, image: queijinhoImg },
+      { name: "Pastel Santa Bárbara", description: "Mini pastéis recheados de queijo Brie e servidos com melaço de cana infusionado na baunilha do cerrado.", price: 68, image: pastelImg },
       { name: "Carpaccio Almécegas Trufado", description: "Carpaccio de carne, molho de mostarda da casa trufado e queijo parmesão ralado.", price: 88, image: carpaccioImg },
       { name: "Camarão São Jorge", description: "Camarão flambado servido com aioli de limão cravo.", price: 118, image: camaraoImg },
       { name: "Isca do Vale", description: "Isca de pescada amarela empanada no panko com barú.", price: 89 },
       { name: "Filézinho Arandú", description: "Cubos de filé mignon grelhado, molho demi-glace, cogumelos e parmesão gratinado.", price: 98 },
-      { name: "Ricota Edwalli", description: "Pasta de ricota, baunilha do cerrado e flocos de pimenta calabresa.", price: 69 },
+      { name: "Ricota Edwalli", description: "Pasta de ricota, baunilha do cerrado e flocos de pimenta calabresa.", price: 69, image: ricotaImg },
       { name: "Torradas dos Altos", description: "Cesta com mix de pães temperados e tostados.", price: 25 },
     ],
   },
@@ -42,7 +49,7 @@ export const menuData: MenuCategory[] = [
     title: "Saladas",
     items: [
       { name: "Salada Kalunga", description: "Alface, queijo parmesão ralado, molho de gergelim Kalunga e croutons.", price: 55 },
-      { name: "Salada Amaná", description: "Mix de folhas, tomate, palmito, cenoura, parmesão, batata palha doce e molho de maionese e mostarda.", price: 79 },
+      { name: "Salada Amaná", description: "Mix de folhas, tomate, palmito, cenoura, parmesão, batata palha doce e molho de maionese e mostarda.", price: 79, image: saladaImg },
     ],
   },
   {
@@ -67,11 +74,11 @@ export const menuData: MenuCategory[] = [
     title: "Pratos Principais",
     items: [
       { name: "Filé Carrosel", description: "Filé mignon com molho demiglace de jatobá acompanhado de arroz e batata noisette.", price: 165, image: fileCarroselImg },
-      { name: "Pesca da Lua", description: "Lombo de pescada amarela, legumes salteados e purê de batata Asterix.", price: 189 },
+      { name: "Pesca da Lua", description: "Lombo de pescada amarela, legumes salteados e purê de batata Asterix.", price: 189, image: pescaImg },
       { name: "Camarão Paraíso", description: "Camarão trufado com arroz cremoso de limão siciliano.", price: 208 },
-      { name: "Polvo Aneci", description: "Tentáculos de polvo acompanhado de mousseline de baroa e manteiga de ervas.", price: 208 },
+      { name: "Polvo Aneci", description: "Tentáculos de polvo acompanhado de mousseline de baroa e manteiga de ervas.", price: 208, image: polvoImg },
       { name: "Arroz Amaná", description: "Arroz selvagem, mix de cogumelos salteados, tomate cereja confitado, passas brancas, castanha de caju e alho assado.", price: 139 },
-      { name: "Risoto Veredas", description: "Risoto ao funghi no creme de parmesão.", price: 120 },
+      { name: "Risoto Veredas", description: "Risoto ao funghi no creme de parmesão.", price: 120, image: risotoImg },
       { name: "Rigatoni Capri", description: "Rigatoni ao molho de tomates frescos, tomate confitado, burrata cremosa e pesto de barú.", price: 130 },
       { name: "Fetuccine Vale de Marte", description: "Fetuccine ao molho alfredo e lascas de parmesão.", price: 95 },
     ],
