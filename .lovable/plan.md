@@ -1,24 +1,38 @@
 
 
-## Corrigir logo com fundo preto
+## Cardápio Digital — Página e Integração
 
-### Problema
-A compressão com `sharp` converteu o `logo.png` para modo palette, removendo a transparência. O fundo transparente virou preto.
+### O que será feito
 
-### Solução
-Reprocessar o `logo.png` preservando o canal alpha (RGBA):
+Criar uma nova página `/cardapio-amana-hotel` com o cardápio digital completo extraído do PDF, organizado por categorias. Atualizar o botão "Ver cardápio" na página do Restaurante para redirecionar internamente.
 
-1. Usar `sharp` para recomprimir o logo mantendo transparência PNG
-2. Redimensionar para largura máxima de 800px (suficiente para o uso no navbar)
-3. Usar compressão PNG com `palette: false` para preservar RGBA
+### Estrutura da página
 
-```js
-sharp('src/assets/logo.png')
-  .resize({ width: 800, withoutEnlargement: true })
-  .png({ quality: 80, palette: false })
-  .toFile(output)
-```
+A página terá:
+1. **Hero compacto** com fundo escuro (bg-chumbo) e título "Cardápio"
+2. **Navegação por categorias** — barra horizontal fixa com scroll, permitindo pular para cada seção
+3. **Seções do cardápio** — cada categoria com seus itens (nome, descrição, preço)
+4. **CTA final** — botão para reservar mesa via WhatsApp
 
-### Resultado
-Logo volta a ter fundo transparente, mantendo tamanho otimizado.
+### Categorias (14 no total)
+Entradas · Saladas · Sanduíches · Caldos · Pratos Principais · Adicionais · Sobremesas · Cafés e Chás · Licores · Bebidas sem Álcool · Sucos e Sodas · Cervejas · Drinks · Destilados
+
+### Design
+- Fundo `bg-branco` com seções alternando `bg-creme`
+- Nome do prato em `font-serif` (Cormorant Garamond), preço alinhado à direita
+- Descrição em `text-muted-foreground italic`
+- Separadores sutis entre itens
+- Sem fotos por enquanto (estrutura pronta para adicionar depois)
+- Estética contemplativa alinhada ao design system existente
+
+### Alterações técnicas
+
+| Arquivo | Ação |
+|---------|------|
+| `src/pages/Cardapio.tsx` | **Criar** — página completa do cardápio digital |
+| `src/pages/Restaurante.tsx` | **Editar** — botão "Ver cardápio" vira `Link` interno para `/cardapio-amana-hotel` |
+| `src/App.tsx` | **Editar** — adicionar rota `/cardapio-amana-hotel` |
+
+### Dados do cardápio
+Todos os itens extraídos do PDF serão codificados como dados estáticos dentro do componente, organizados em um array tipado por categoria.
 
