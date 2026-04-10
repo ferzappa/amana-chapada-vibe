@@ -5,6 +5,13 @@ import maytreaImg from "@/assets/cardapio/maytrea-sandwich.jpg";
 import fileCarroselImg from "@/assets/cardapio/file-carrosel.jpg";
 import brownieImg from "@/assets/cardapio/brownie-cumbaru.jpg";
 import crepeImg from "@/assets/cardapio/crepe-barroco.jpg";
+import pastelImg from "@/assets/cardapio/pastel-santa-barbara.jpg";
+import pescaImg from "@/assets/cardapio/pesca-da-lua.jpg";
+import polvoImg from "@/assets/cardapio/polvo-aneci.jpg";
+import queijinhoImg from "@/assets/cardapio/queijinho-candaru.jpg";
+import ricotaImg from "@/assets/cardapio/ricota-edwalli.jpg";
+import risotoImg from "@/assets/cardapio/risoto-veredas.jpg";
+import saladaImg from "@/assets/cardapio/salada-amana.jpg";
 
 export interface MenuItem {
   name: string;
