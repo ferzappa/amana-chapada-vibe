@@ -10,6 +10,7 @@ import beachTennisImg from "@/assets/beach-tennis.jpg";
 import saunaImg from "@/assets/sauna.jpg";
 import fitnessCenterImg from "@/assets/fitness-center.png";
 import trilhasGuiadasImg from "@/assets/trilhas-guiadas.jpg";
+import gastronomiaImg from "@/assets/gastronomia.jpg";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
@@ -140,7 +141,7 @@ const Index = () => (
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-center">
             <div className="lg:col-span-3 img-hover">
               <img
-                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&h=600&fit=crop"
+                src={gastronomiaImg}
                 alt="Gastronomia do cerrado no restaurante Amaná"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
                 loading="lazy"
