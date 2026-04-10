@@ -21,7 +21,8 @@ const BangaloTemplate = ({ data }: { data: BangaloData }) => (
     <SEO title={data.seoTitle} description={data.seoDesc} />
 
     <section className="relative h-[70vh] flex items-end overflow-hidden">
-      <img src={data.heroImg} alt={data.h1} className="absolute inset-0 w-full h-full object-cover" />
+      <img
+                loading="lazy" src={data.heroImg} alt={data.h1} className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-gradient-to-t from-chumbo/70 to-transparent" />
       <div className="relative z-10 container-narrow pb-16">
         <p className="label-text text-dourado mb-4">{data.area}</p>
