@@ -11,6 +11,7 @@ import saunaImg from "@/assets/sauna.jpg";
 import fitnessCenterImg from "@/assets/fitness-center.jpg";
 import trilhasGuiadasImg from "@/assets/trilhas-guiadas.jpg";
 import gastronomiaImg from "@/assets/gastronomia.jpg";
+import chapadaVeadeirosImg from "@/assets/chapada-veadeiros.jpg";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
@@ -215,7 +216,7 @@ const Index = () => (
             </div>
             <div className="lg:col-span-3 order-1 lg:order-2 img-hover">
               <img
-                src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&h=600&fit=crop"
+                src={chapadaVeadeirosImg}
                 alt="Paisagem da Chapada dos Veadeiros"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
                 loading="lazy"
