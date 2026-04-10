@@ -4,6 +4,7 @@ import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import cachoeirasExclusivasImg from "@/assets/cachoeiras-exclusivas.jpg";
 import bangaloAmanaImg from "@/assets/bangalo-amana.jpg";
+import wellnessSpaImg from "@/assets/wellness-spa.jpg";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
@@ -116,7 +117,7 @@ const Index = () => (
             </div>
             <div className="lg:col-span-3 order-1 lg:order-2 img-hover">
               <img
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbec6e?w=900&h=600&fit=crop"
+                src={wellnessSpaImg}
                 alt="Spa de luxo Amaná Hotel"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
                 loading="lazy"
