@@ -8,6 +8,7 @@ import wellnessSpaImg from "@/assets/wellness-spa.jpg";
 import piscinaImg from "@/assets/piscina.jpg";
 import beachTennisImg from "@/assets/beach-tennis.jpg";
 import saunaImg from "@/assets/sauna.jpg";
+import fitnessCenterImg from "@/assets/fitness-center.png";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
@@ -16,7 +17,7 @@ const experiencias = [
   { title: "Trilhas Guiadas", img: "photo-1551632811-561732d1e306", desc: "Caminhos ancestrais com guias especializados na região" },
   { title: "Piscina", img: piscinaImg, isLocal: true, desc: "Águas cristalinas cercadas pelo paisagismo exclusivo" },
   { title: "Sauna & Bem-estar", img: saunaImg, isLocal: true, desc: "Rituais de relaxamento inspirados na tradição local" },
-  { title: "Fitness Center", img: "photo-1534438327276-14e5300c3a48", desc: "Exercícios com vista para o cerrado infinito" },
+  { title: "Fitness Center", img: fitnessCenterImg, isLocal: true, desc: "Exercícios com vista para o cerrado infinito" },
   { title: "Beach Tennis", img: beachTennisImg, isLocal: true, desc: "Quadra de areia em meio à natureza" },
 ];
 
