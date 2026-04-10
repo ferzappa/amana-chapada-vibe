@@ -30,7 +30,7 @@ const Sobre = () => (
     {/* Hero */}
     <section className="relative h-[70vh] flex items-end overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1920&h=1080&fit=crop&q=80"
+        src="/lovable-uploads/0168057a-4e3c-423b-aacd-efadf3bc949f.jpg"
         alt="Amaná Hotel visto de cima"
         className="absolute inset-0 w-full h-full object-cover"
       />
