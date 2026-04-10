@@ -6,6 +6,7 @@ import cachoeirasExclusivasImg from "@/assets/cachoeiras-exclusivas.jpg";
 import bangaloAmanaImg from "@/assets/bangalo-amana.jpg";
 import wellnessSpaImg from "@/assets/wellness-spa.jpg";
 import piscinaImg from "@/assets/piscina.jpg";
+import beachTennisImg from "@/assets/beach-tennis.jpg";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
@@ -15,7 +16,7 @@ const experiencias = [
   { title: "Piscina", img: piscinaImg, isLocal: true, desc: "Águas cristalinas cercadas pelo paisagismo exclusivo" },
   { title: "Sauna & Bem-estar", img: "photo-1540555700478-4be289fbec6e", desc: "Rituais de relaxamento inspirados na tradição local" },
   { title: "Academia ao Ar Livre", img: "photo-1534438327276-14e5300c3a48", desc: "Exercícios com vista para o cerrado infinito" },
-  { title: "Beach Tennis", img: "photo-1554068865-24cecd4e34b8", desc: "Quadra de areia em meio à natureza" },
+  { title: "Beach Tennis", img: beachTennisImg, isLocal: true, desc: "Quadra de areia em meio à natureza" },
 ];
 
 const jsonLd = {
