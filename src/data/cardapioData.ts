@@ -40,7 +40,7 @@ export const menuData: MenuCategory[] = [
       { name: "Camarão São Jorge", description: "Camarão flambado servido com aioli de limão cravo.", price: 118, image: camaraoImg },
       { name: "Isca do Vale", description: "Isca de pescada amarela empanada no panko com barú.", price: 89 },
       { name: "Filézinho Arandú", description: "Cubos de filé mignon grelhado, molho demi-glace, cogumelos e parmesão gratinado.", price: 98 },
-      { name: "Ricota Edwalli", description: "Pasta de ricota, baunilha do cerrado e flocos de pimenta calabresa.", price: 69 },
+      { name: "Ricota Edwalli", description: "Pasta de ricota, baunilha do cerrado e flocos de pimenta calabresa.", price: 69, image: ricotaImg },
       { name: "Torradas dos Altos", description: "Cesta com mix de pães temperados e tostados.", price: 25 },
     ],
   },
