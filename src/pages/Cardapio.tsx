@@ -18,7 +18,7 @@ const Cardapio = () => {
           }
         }
       },
-      { rootMargin: "-40% 0px -55% 0px" }
+      { rootMargin: "-30% 0px -55% 0px" }
     );
 
     menuData.forEach((cat) => {
