@@ -49,7 +49,7 @@ export const menuData: MenuCategory[] = [
     title: "Saladas",
     items: [
       { name: "Salada Kalunga", description: "Alface, queijo parmesão ralado, molho de gergelim Kalunga e croutons.", price: 55 },
-      { name: "Salada Amaná", description: "Mix de folhas, tomate, palmito, cenoura, parmesão, batata palha doce e molho de maionese e mostarda.", price: 79 },
+      { name: "Salada Amaná", description: "Mix de folhas, tomate, palmito, cenoura, parmesão, batata palha doce e molho de maionese e mostarda.", price: 79, image: saladaImg },
     ],
   },
   {
