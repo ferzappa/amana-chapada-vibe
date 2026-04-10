@@ -18,7 +18,7 @@ const Cardapio = () => {
           }
         }
       },
-      { rootMargin: "-40% 0px -55% 0px" }
+      { rootMargin: "-30% 0px -55% 0px" }
     );
 
     menuData.forEach((cat) => {
@@ -32,7 +32,7 @@ const Cardapio = () => {
   const scrollToSection = (id: string) => {
     const el = sectionRefs.current[id];
     if (el) {
-      const offset = 120;
+      const offset = 160;
       const top = el.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top, behavior: "smooth" });
     }
@@ -62,7 +62,7 @@ const Cardapio = () => {
       </section>
 
       {/* Nav sticky de categorias */}
-      <nav className="sticky top-0 z-40 bg-branco border-b border-border shadow-sm">
+      <nav className="sticky top-20 md:top-24 z-40 bg-branco border-b border-border shadow-sm">
         <div
           ref={navRef}
           className="container-narrow flex gap-1 overflow-x-auto py-3 scrollbar-hide"
