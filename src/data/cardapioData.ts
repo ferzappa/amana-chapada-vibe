@@ -34,7 +34,7 @@ export const menuData: MenuCategory[] = [
       { name: "Burrata Morro da Baleia", description: "Burrata cremosa, pesto de barú e tomates confitados na baunilha do cerrado.", price: 89, image: burratImg },
       { name: "Truffle Fries", description: "Batata frita trufada, queijo parmesão ralado e maionese trufada.", price: 50 },
       { name: "Spicy Fries", description: "Batata frita com páprica defumada e pimenta de macaco, acompanhada de molho aioli.", price: 48 },
-      { name: "Queijinho Candarú", description: "Queijo gouda empanado acompanhado de chutney de frutas do cerrado levemente apimentado.", price: 68 },
+      { name: "Queijinho Candarú", description: "Queijo gouda empanado acompanhado de chutney de frutas do cerrado levemente apimentado.", price: 68, image: queijinhoImg },
       { name: "Pastel Santa Bárbara", description: "Mini pastéis recheados de queijo Brie e servidos com melaço de cana infusionado na baunilha do cerrado.", price: 68 },
       { name: "Carpaccio Almécegas Trufado", description: "Carpaccio de carne, molho de mostarda da casa trufado e queijo parmesão ralado.", price: 88, image: carpaccioImg },
       { name: "Camarão São Jorge", description: "Camarão flambado servido com aioli de limão cravo.", price: 118, image: camaraoImg },
