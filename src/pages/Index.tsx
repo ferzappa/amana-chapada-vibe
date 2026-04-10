@@ -5,13 +5,14 @@ import SEO from "@/components/SEO";
 import cachoeirasExclusivasImg from "@/assets/cachoeiras-exclusivas.jpg";
 import bangaloAmanaImg from "@/assets/bangalo-amana.jpg";
 import wellnessSpaImg from "@/assets/wellness-spa.jpg";
+import piscinaImg from "@/assets/piscina.jpg";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
 const experiencias = [
   { title: "Cachoeiras Exclusivas", img: cachoeirasExclusivasImg, isLocal: true, desc: "Trilhas privativas até cachoeiras em meio ao cerrado preservado" },
   { title: "Trilhas Guiadas", img: "photo-1551632811-561732d1e306", desc: "Caminhos ancestrais com guias especializados na região" },
-  { title: "Piscina", img: "photo-1575429198097-0414ec08e8cd", desc: "Águas cristalinas cercadas pelo paisagismo exclusivo" },
+  { title: "Piscina", img: piscinaImg, isLocal: true, desc: "Águas cristalinas cercadas pelo paisagismo exclusivo" },
   { title: "Sauna & Bem-estar", img: "photo-1540555700478-4be289fbec6e", desc: "Rituais de relaxamento inspirados na tradição local" },
   { title: "Academia ao Ar Livre", img: "photo-1534438327276-14e5300c3a48", desc: "Exercícios com vista para o cerrado infinito" },
   { title: "Beach Tennis", img: "photo-1554068865-24cecd4e34b8", desc: "Quadra de areia em meio à natureza" },
