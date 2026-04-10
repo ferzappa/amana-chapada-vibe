@@ -1,10 +1,30 @@
 
 
-## Aumentar o logo no menu
+## Otimização de imagens para performance
 
-Alterar as classes de tamanho da imagem do logo no componente `Navbar.tsx`:
+### Problema
+73 MB de imagens não comprimidas. Várias com 2-5 MB cada. Isso causa carregamento lento, especialmente em conexões móveis.
 
-- **Linha 44**: Mudar `h-10 md:h-12` para `h-14 md:h-16` (de ~40/48px para ~56/64px)
+### Plano
 
-Isso aumenta o logo tanto no mobile quanto no desktop, mantendo proporção com `w-auto`.
+**1. Comprimir todas as imagens JPG/PNG**
+- Usar sharp (Node.js) para redimensionar e comprimir todas as imagens
+- Largura máxima: 1600px (suficiente para telas retina)
+- Qualidade JPEG: 80% (bom equilíbrio qualidade/tamanho)
+- Converter o PNG (fitness-center.png) para JPEG
+- Meta: cada imagem abaixo de 300 KB
+
+**2. Gerar versões WebP (opcional, maior ganho)**
+- WebP oferece ~30% menos peso que JPEG na mesma qualidade
+- Manter JPG como fallback
+
+### Resultado esperado
+- De ~73 MB para ~8-12 MB total
+- Carregamento 5-8x mais rápido
+- Sem perda visual perceptível
+
+### Detalhes técnicos
+- Script Node.js com `sharp` para processar todas as imagens em batch
+- Substituição in-place dos arquivos em `src/assets/`
+- Sem alteração de código nos componentes (mesmos nomes de arquivo)
 
