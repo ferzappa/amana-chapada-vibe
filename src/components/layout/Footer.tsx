@@ -11,12 +11,12 @@ const quickLinks = [
 ];
 
 const instagramImages = [
-  "/lovable-uploads/insta-27-02.png",
-  "/lovable-uploads/insta-12-01.png",
-  "/lovable-uploads/insta-08-01.png",
-  "/lovable-uploads/insta-26-12.png",
-  "/lovable-uploads/insta-09-11.png",
-  "/lovable-uploads/insta-28-11.png",
+  "/lovable-uploads/insta-27-02.jpg",
+  "/lovable-uploads/insta-12-01.jpg",
+  "/lovable-uploads/insta-08-01.jpg",
+  "/lovable-uploads/insta-26-12.jpg",
+  "/lovable-uploads/insta-09-11.jpg",
+  "/lovable-uploads/insta-28-11.jpg",
 ];
 
 const Footer = () => (
