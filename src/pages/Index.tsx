@@ -8,6 +8,7 @@ import wellnessSpaImg from "@/assets/wellness-spa.jpg";
 import piscinaImg from "@/assets/piscina.jpg";
 import beachTennisImg from "@/assets/beach-tennis.jpg";
 import saunaImg from "@/assets/sauna.jpg";
+import fitnessCenterImg from "@/assets/fitness-center.png";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
