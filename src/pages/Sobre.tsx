@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import heroImg from "@/assets/bangalos-hero.jpg";
 
 const diferenciais = [
   { num: "12", label: "Bangalôs exclusivos", desc: "Privacidade total em meio ao cerrado" },
@@ -30,7 +31,7 @@ const Sobre = () => (
     {/* Hero */}
     <section className="relative h-[70vh] flex items-end overflow-hidden">
       <img
-        src="/lovable-uploads/0168057a-4e3c-423b-aacd-efadf3bc949f.jpg"
+        src={heroImg}
         alt="Amaná Hotel visto de cima"
         className="absolute inset-0 w-full h-full object-cover"
       />
