@@ -4,7 +4,6 @@ import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import cachoeirasExclusivasImg from "@/assets/cachoeiras-exclusivas.jpg";
 import bangaloAmanaImg from "@/assets/bangalo-amana.jpg";
-import bangaloAmanaImg from "@/assets/bangalo-amana.jpg";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
