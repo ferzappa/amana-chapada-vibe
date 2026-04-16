@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
+import BangaloCarousel from "@/components/BangaloCarousel";
 import cachoeirasExclusivasImg from "@/assets/cachoeiras-exclusivas.jpg";
 import bangaloAmanaImg from "@/assets/bangalo-amana.jpg";
 import wellnessSpaImg from "@/assets/wellness-spa.jpg";
@@ -164,8 +165,36 @@ const Index = () => (
       </div>
     </section>
 
-    {/* Experiências Carousel */}
+    {/* Wedding */}
     <section className="section-padding bg-creme">
+      <div className="container-narrow">
+        <SectionReveal>
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-center">
+            <div className="lg:col-span-2">
+              <p className="label-text text-accent mb-4">Casamentos</p>
+              <h2 className="display-2 text-foreground mb-6">Celebrações no coração do cerrado</h2>
+              <p className="text-muted-foreground mb-8">
+                Casamentos íntimos sob o céu mais estrelado do Brasil.
+                Cada detalhe pensado para que o amor se encontre com a paisagem,
+                em uma celebração que permanece na memória.
+              </p>
+              <Link to="/wedding-chapada-dos-veadeiros" className="cta-arrow">
+                Wedding Amaná
+              </Link>
+            </div>
+            <div className="lg:col-span-3">
+              <BangaloCarousel
+                images={[chapadaVeadeirosImg, gastronomiaImg, bangaloAmanaImg, wellnessSpaImg]}
+                alt="Casamentos no Amaná Hotel"
+              />
+            </div>
+          </div>
+        </SectionReveal>
+      </div>
+    </section>
+
+    {/* Experiências Carousel */}
+    <section className="section-padding bg-branco">
       <div className="container-narrow">
         <SectionReveal>
           <div className="text-center mb-12">
