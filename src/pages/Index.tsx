@@ -171,7 +171,7 @@ const Index = () => (
         <SectionReveal>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-center">
             <div className="lg:col-span-2">
-              <p className="label-text text-accent mb-4">Casamentos</p>
+              <p className="label-text text-accent mb-4">Destination Wedding</p>
               <h2 className="display-2 text-foreground mb-6">Celebrações no coração do cerrado</h2>
               <p className="text-muted-foreground mb-8">
                 Casamentos íntimos sob o céu mais estrelado do Brasil.
