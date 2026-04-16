@@ -1,17 +1,45 @@
 
 
-## Correção: Navegação por categorias no Cardápio Digital
+## Atualizar seção de serviços do SPA Amaná
 
-### Problema
-A barra de categorias (`sticky top-0`) fica por trás da navbar fixa (`fixed top-0, z-50, h-20/h-24`), e o offset de scroll (120px) não compensa a altura combinada dos dois elementos. Resultado: ao clicar numa categoria, a página rola para uma posição errada.
+### O que será feito
 
-### Solução
+Substituir a lista atual de serviços (3 categorias genéricas) pelos 14 tratamentos reais fornecidos, cada um com nome, descrição e duração de 60 minutos.
 
-**Arquivo: `src/pages/Cardapio.tsx`**
+### Estrutura
 
-1. **Ajustar posição sticky da barra de categorias** — mudar de `top-0` para `top-20 md:top-24` para que fique abaixo da navbar fixa
-2. **Aumentar o offset de scroll** — de 120px para ~160px (navbar ~96px + barra de categorias ~48px + margem)
-3. **Ajustar rootMargin do IntersectionObserver** — sincronizar com a nova posição para que o destaque da categoria ativa funcione corretamente
+A seção `bg-creme` será redesenhada com um layout de cards em grid (1 coluna mobile, 2 colunas tablet, 3 colunas desktop). Cada card exibirá:
+- Nome do serviço (título serif)
+- Descrição contemplativa (texto muted)
+- Duração: 60 min (label discreto)
 
-Alteração pontual em um único arquivo, sem impacto em outros componentes.
+Um subtítulo "Todos os tratamentos têm duração de 60 minutos" será exibido acima do grid para evitar repetição.
+
+### Alterações técnicas
+
+| Arquivo | Ação |
+|---------|------|
+| `src/pages/Spa.tsx` | Substituir o array `servicos` por um array de 14 objetos `{ name, description }`. Redesenhar a seção de serviços com grid de cards elegantes. |
+
+### Dados dos serviços
+
+Os 14 tratamentos serão codificados como dados estáticos:
+1. Massagem Relaxante
+2. Thai Massagem Avançada
+3. Manipulação e Liberação Miofascial
+4. Massagem Terapêutica
+5. Harmonização dos Chakras / Reiki
+6. Massagem Integrativa
+7. Spa dos Pés
+8. Shiatsu
+9. Pedras Quentes
+10. Massagem Desportiva
+11. Massagens Ayurvédicas
+12. Ventosaterapia
+13. Drenagem Linfática
+14. Magnified Healing (Cura Energética)
+
+### Visual
+
+Cards com fundo branco sobre a seção creme, sem border-radius (seguindo o design system), com espaçamento generoso e animação de reveal ao scroll. Tom contemplativo mantido nas descrições.
 
