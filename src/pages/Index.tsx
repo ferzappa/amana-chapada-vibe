@@ -228,7 +228,7 @@ const Index = () => (
     </section>
 
     {/* Chapada */}
-    <section className="section-padding bg-branco">
+    <section className="section-padding bg-creme">
       <div className="container-narrow">
         <SectionReveal>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-center">
