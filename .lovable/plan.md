@@ -1,45 +1,50 @@
 
 
-## Atualizar seção de serviços do SPA Amaná
+## Adicionar seção Wedding na Home
 
 ### O que será feito
 
-Substituir a lista atual de serviços (3 categorias genéricas) pelos 14 tratamentos reais fornecidos, cada um com nome, descrição e duração de 60 minutos.
+Incluir uma nova seção na home (`src/pages/Index.tsx`) direcionando para a página `/wedding-chapada-dos-veadeiros`, seguindo o padrão visual das demais seções (grid 5 colunas, label + título + descrição + CTA), porém com um **carrossel de fotos com setas de navegação** no lugar da imagem estática.
 
-### Estrutura
+### Estrutura da seção
 
-A seção `bg-creme` será redesenhada com um layout de cards em grid (1 coluna mobile, 2 colunas tablet, 3 colunas desktop). Cada card exibirá:
-- Nome do serviço (título serif)
-- Descrição contemplativa (texto muted)
-- Duração: 60 min (label discreto)
+- **Posição**: após a seção "Gastronomia" e antes da seção "Experiências"
+- **Background**: `bg-creme` (alternando com a seção anterior `bg-branco`)
+- **Layout**: grid `lg:grid-cols-5`
+  - Coluna de texto (2/5) — ordem invertida (texto à esquerda, imagem à direita)
+  - Coluna do carrossel (3/5)
+- **Conteúdo textual**:
+  - Label: "Casamentos"
+  - Título: "Celebrações no coração do cerrado"
+  - Descrição: tom contemplativo sobre casamentos íntimos com o cerrado como cenário natural
+  - CTA: "Wedding Amaná" → `/wedding-chapada-dos-veadeiros`
 
-Um subtítulo "Todos os tratamentos têm duração de 60 minutos" será exibido acima do grid para evitar repetição.
+### Carrossel
+
+Reutilizar o componente existente `src/components/BangaloCarousel.tsx`, que já implementa:
+- Setas de navegação (ChevronLeft / ChevronRight) que aparecem no hover
+- Dots indicadores
+- Autoplay com pausa no hover
+- Loop infinito
+
+Ajuste mínimo: usar o componente como está, passando 4-5 fotos de wedding.
+
+### Imagens
+
+Como ainda não há fotos específicas de wedding no projeto, usarei como **placeholders** imagens já existentes no projeto que evocam o ambiente (paisagem, gastronomia, bangalô). O usuário poderá substituir depois enviando fotos reais de casamentos.
+
+Imagens placeholder a usar:
+- `chapada-veadeiros.jpg`
+- `gastronomia.jpg`
+- `bangalo-amana.jpg`
+- `wellness-spa.jpg`
 
 ### Alterações técnicas
 
 | Arquivo | Ação |
 |---------|------|
-| `src/pages/Spa.tsx` | Substituir o array `servicos` por um array de 14 objetos `{ name, description }`. Redesenhar a seção de serviços com grid de cards elegantes. |
+| `src/pages/Index.tsx` | Importar `BangaloCarousel` + 4 imagens placeholder. Adicionar nova `<section>` Wedding entre Gastronomia e Experiências. |
 
-### Dados dos serviços
-
-Os 14 tratamentos serão codificados como dados estáticos:
-1. Massagem Relaxante
-2. Thai Massagem Avançada
-3. Manipulação e Liberação Miofascial
-4. Massagem Terapêutica
-5. Harmonização dos Chakras / Reiki
-6. Massagem Integrativa
-7. Spa dos Pés
-8. Shiatsu
-9. Pedras Quentes
-10. Massagem Desportiva
-11. Massagens Ayurvédicas
-12. Ventosaterapia
-13. Drenagem Linfática
-14. Magnified Healing (Cura Energética)
-
-### Visual
-
-Cards com fundo branco sobre a seção creme, sem border-radius (seguindo o design system), com espaçamento generoso e animação de reveal ao scroll. Tom contemplativo mantido nas descrições.
+### Observação
+Após a implementação, recomendo ao usuário enviar fotos reais de casamentos para substituir os placeholders.
 
