@@ -58,22 +58,22 @@ const Spa = () => (
     <section className="section-padding bg-creme">
       <div className="container-narrow">
         <SectionReveal>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {servicos.map((s, i) => (
-              <div key={i}>
-                <h2 className="font-serif text-2xl text-foreground mb-6">{s.cat}</h2>
-                <ul className="space-y-3">
-                  {s.items.map((item, j) => (
-                    <li key={j} className="flex items-start gap-3 text-sm text-muted-foreground">
-                      <span className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
+          <p className="label-text text-accent text-center mb-4">Nossos Tratamentos</p>
+          <h2 className="display-2 text-foreground text-center mb-4">Corpo, Energia & Silêncio</h2>
+          <p className="text-muted-foreground text-center mb-16">Todos os tratamentos têm duração de 60 minutos.</p>
         </SectionReveal>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {tratamentos.map((t, i) => (
+            <SectionReveal key={i}>
+              <div className="bg-branco p-8 h-full flex flex-col border border-border">
+                <h3 className="font-serif text-xl text-foreground mb-3">{t.name}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed flex-1">{t.description}</p>
+                <p className="label-text text-[11px] text-accent mt-6">60 min</p>
+              </div>
+            </SectionReveal>
+          ))}
+        </div>
       </div>
     </section>
 
