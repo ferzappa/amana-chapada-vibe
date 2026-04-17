@@ -17,7 +17,7 @@ import chapadaVeadeirosImg from "@/assets/chapada-veadeiros.jpg";
 import heroImage from "@/assets/hero-poster.jpg";
 
 const experiencias = [
-  { title: "Cachoeiras Exclusivas", img: cachoeirasExclusivasImg, isLocal: true, desc: "Trilhas privativas até cachoeiras em meio ao cerrado preservado" },
+  { title: "Cachoeiras Exclusivas", img: cachoeirasExclusivasImg, isLocal: true, desc: "Desfrute de cachoeiras privativas em meio à vegetação exuberante da Chapada dos Veadeiros.\nUm refúgio natural exclusivo, ideal para relaxar e se conectar com a natureza em absoluta tranquilidade." },
   { title: "Trilhas", img: trilhasGuiadasImg, isLocal: true, desc: "Trilhas que conduzem a paisagens do cerrado e convidam a uma conexão autêntica com a natureza" },
   { title: "Piscina", img: piscinaImg, isLocal: true, desc: "Águas cristalinas cercadas pelo paisagismo exclusivo" },
   { title: "Sauna & Bem-estar", img: saunaImg, isLocal: true, desc: "Rituais de relaxamento inspirados na tradição local" },
