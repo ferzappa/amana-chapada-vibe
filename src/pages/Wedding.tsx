@@ -5,7 +5,7 @@ import weddingHero from "@/assets/wedding-hero.jpg";
 
 const diferenciais = [
   { title: "Hotel inteiro reservado", desc: "Exclusividade em cada detalhe: todo o Amaná dedicado a você e aos seus convidados, para viver momentos com privacidade, conforto e total liberdade." },
-  { title: "Experiência completa", desc: "Hospedagem, gastronomia, spa e atividades integrados à celebração." },
+  { title: "Experiência completa", desc: "Hospedagem, gastronomia, spa e atividades integradas em perfeita harmonia, criando uma celebração fluida, envolvente e verdadeiramente memorável." },
   { title: "Natureza como cenário", desc: "40 hectares de cerrado preservado como palco para o seu momento." },
   { title: "Equipe dedicada", desc: "Planejamento personalizado do início ao fim, com atenção a cada detalhe." },
 ];
