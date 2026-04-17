@@ -152,9 +152,10 @@ const Index = () => (
             <div className="lg:col-span-2">
               <p className="label-text text-accent mb-4">Gastronomia</p>
               <h2 className="display-2 text-foreground mb-6">Gastronomia que transforma momentos</h2>
-              <p className="text-muted-foreground mb-8">
-                Ingredientes colhidos da nossa horta e do bioma ao redor.
-                Uma cozinha que celebra o território com sofisticação e simplicidade.
+              <p className="text-muted-foreground mb-8 whitespace-pre-line">
+                Cada prato é pensado para ir além. Uma cozinha que combina técnica, apresentação e sabores marcantes, criando experiências que acompanham o ritmo da sua estadia, do almoço descontraído ao jantar especial.
+
+                Um convite para aproveitar cada momento com prazer, leveza e sofisticação.
               </p>
               <Link to="/restaurante-chapada-dos-veadeiros" className="cta-arrow">
                 Restaurante Amaná
