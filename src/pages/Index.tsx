@@ -94,9 +94,10 @@ const Index = () => (
             <div className="lg:col-span-2">
               <p className="label-text text-accent mb-4">Bangalôs</p>
               <h2 className="display-2 text-foreground mb-6">12 refúgios em meio ao cerrado</h2>
-              <p className="text-muted-foreground mb-8">
-                Cada bangalô foi desenhado para dissolver a fronteira entre o interior e a paisagem.
-                Hidromassagem, cama Super King, amenities premium — tudo pensado para uma estadia sem pressa.
+              <p className="text-muted-foreground mb-8 whitespace-pre-line">
+                Cada bangalô foi cuidadosamente projetado para integrar os ambientes internos à paisagem ao redor, criando uma experiência de imersão na natureza com total conforto e privacidade.
+
+                Hidromassagem, cama super king e amenities premium, os bangalôs oferecem o equilíbrio ideal entre sofisticação e bem-estar, convidando a uma estadia sem pressa, onde cada detalhe foi pensado para proporcionar descanso, tranquilidade e uma experiência verdadeiramente exclusiva.
               </p>
               <Link to="/bangalos-chapada-dos-veadeiros" className="cta-arrow">
                 Conheça os Bangalôs
