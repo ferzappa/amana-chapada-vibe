@@ -58,7 +58,7 @@ const Experiencias = () => (
         <SectionReveal>
           <p className="text-lg text-foreground">
             Não oferecemos passeios. Oferecemos jornadas. Cada experiência foi desenhada para criar uma conexão
-            genuína com o território — respeitando seu tempo, sua curiosidade e sua necessidade de silêncio.
+            genuína com o território, respeitando seu tempo, sua curiosidade e sua necessidade de silêncio.
           </p>
         </SectionReveal>
       </div>
