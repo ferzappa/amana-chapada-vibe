@@ -48,8 +48,8 @@ const Spa = () => (
             bem-estar começa quando o corpo encontra o silêncio.
           </p>
           <p className="text-muted-foreground text-center">
-            A sauna a lenha, a piscina natural e os rituais holísticos completam uma jornada de reconexão
-            que é, ao mesmo tempo, ancestral e profundamente pessoal.
+            Cada experiência é pensada para proporcionar uma pausa profunda, onde o tempo desacelera 
+            e o equilíbrio se restabelece de forma natural e acolhedora.
           </p>
         </SectionReveal>
       </div>
