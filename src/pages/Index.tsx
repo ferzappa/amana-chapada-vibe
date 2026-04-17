@@ -214,7 +214,7 @@ const Index = () => (
                 <div className="absolute inset-0 bg-gradient-to-t from-chumbo/80 via-chumbo/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="font-serif text-xl text-branco mb-2">{exp.title}</h3>
-                  <p className="text-sm text-branco/70">{exp.desc}</p>
+                  <p className="text-sm text-branco/70 whitespace-pre-line">{exp.desc}</p>
                 </div>
               </div>
             ))}
