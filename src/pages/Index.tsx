@@ -18,7 +18,7 @@ import heroImage from "@/assets/hero-poster.jpg";
 
 const experiencias = [
   { title: "Cachoeiras Exclusivas", img: cachoeirasExclusivasImg, isLocal: true, desc: "Desfrute de cachoeiras privativas em meio à vegetação exuberante da Chapada dos Veadeiros.\nUm refúgio natural exclusivo, ideal para relaxar e se conectar com a natureza em absoluta tranquilidade." },
-  { title: "Trilhas", img: trilhasGuiadasImg, isLocal: true, desc: "Trilhas que conduzem a paisagens do cerrado e convidam a uma conexão autêntica com a natureza" },
+  { title: "Trilhas", img: trilhasGuiadasImg, isLocal: true, desc: "Explore trilhas ecológicas que revelam paisagens deslumbrantes e uma conexão genuína com a natureza.\nCaminhos entre florestas nativas, riachos cristalinos e vistas panorâmicas que tornam cada percurso memorável." },
   { title: "Piscina", img: piscinaImg, isLocal: true, desc: "Águas cristalinas cercadas pelo paisagismo exclusivo" },
   { title: "Sauna & Bem-estar", img: saunaImg, isLocal: true, desc: "Rituais de relaxamento inspirados na tradição local" },
   { title: "Fitness Center", img: fitnessCenterImg, isLocal: true, desc: "Exercícios com vista para o cerrado infinito" },
@@ -214,7 +214,7 @@ const Index = () => (
                 <div className="absolute inset-0 bg-gradient-to-t from-chumbo/80 via-chumbo/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="font-serif text-xl text-branco mb-2">{exp.title}</h3>
-                  <p className="text-sm text-branco/70">{exp.desc}</p>
+                  <p className="text-sm text-branco/70 whitespace-pre-line">{exp.desc}</p>
                 </div>
               </div>
             ))}
