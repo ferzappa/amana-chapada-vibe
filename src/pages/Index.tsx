@@ -22,7 +22,7 @@ const experiencias = [
   { title: "Piscina", img: piscinaImg, isLocal: true, desc: "​Uma ampla piscina aquecida para momentos de lazer com total conforto, integrada a uma vista deslumbrante que convida à contemplação." },
   { title: "Sauna & Bem-estar", img: saunaImg, isLocal: true, desc: "Relaxe e revitalize-se em nossa sauna, um ambiente acolhedor e tranquilo, ideal para aliviar o estresse e renovar o bem-estar." },
   { title: "Fitness Center", img: fitnessCenterImg, isLocal: true, desc: "​Nossa academia oferece um ambiente moderno e climatizado, com equipamentos completos para um treino eficiente. O espaço ideal para manter sua rotina e cuidar do corpo e da mente durante a estadia." },
-  { title: "Beach Tennis", img: beachTennisImg, isLocal: true, desc: "Quadra de areia em meio à natureza" },
+  { title: "Beach Tennis", img: beachTennisImg, isLocal: true, desc: "Aproveite nossa quadra de tênis, com superfície de alta qualidade e ambiente cuidadosamente preservado. Perfeita para partidas leves ou treinos intensos, em meio à tranquilidade ao ar livre." },
 ];
 
 const jsonLd = {
