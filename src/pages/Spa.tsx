@@ -44,8 +44,8 @@ const Spa = () => (
         <SectionReveal>
           <p className="text-lg text-foreground text-center mb-6">
             No SPA Amaná, o cuidado nasce da terra. Cada tratamento utiliza ingredientes nativos do cerrado,
-            colhidos com respeito ao bioma, e é conduzido por profissionais que entendem que o verdadeiro
-            bem-estar começa quando o corpo finalmente silencia.
+            colhidos com respeito ao bioma, e é conduzido por profissionais que compreendem que o verdadeiro
+            bem-estar começa quando o corpo encontra o silêncio.
           </p>
           <p className="text-muted-foreground text-center">
             A sauna a lenha, a piscina natural e os rituais holísticos completam uma jornada de reconexão
