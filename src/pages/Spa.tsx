@@ -81,7 +81,7 @@ const Spa = () => (
       <SectionReveal>
         <p className="label-text text-accent mb-4">Agendamento</p>
         <p className="font-serif text-2xl text-foreground mb-8 max-w-lg mx-auto">
-          Os tratamentos são agendados de acordo com o seu ritmo. Sem pressa.
+          Os tratamentos são agendados de acordo com o seu ritmo.
         </p>
         <a
           href="https://wa.me/5561995080641?text=Olá!%20Gostaria%20de%20agendar%20um%20tratamento%20no%20SPA%20Amaná."
