@@ -29,7 +29,7 @@ const Restaurante = () => (
         <SectionReveal>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
-              <h2 className="display-2 text-foreground mb-6">Da horta à mesa, com alma do cerrado</h2>
+              <h2 className="display-2 text-foreground mb-6">Gastronomia que transforma momentos</h2>
               <p className="text-muted-foreground mb-6">
                 Nossa cozinha é guiada pela sazonalidade e pela riqueza do bioma. Ingredientes colhidos diariamente
                 da horta do hotel e do cerrado ao redor compõem pratos que celebram o território com sofisticação
