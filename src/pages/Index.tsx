@@ -20,7 +20,7 @@ const experiencias = [
   { title: "Cachoeiras Exclusivas", img: cachoeirasExclusivasImg, isLocal: true, desc: "Desfrute de cachoeiras privativas em meio à vegetação exuberante da Chapada dos Veadeiros.\nUm refúgio natural exclusivo, ideal para relaxar e se conectar com a natureza em absoluta tranquilidade." },
   { title: "Trilhas", img: trilhasGuiadasImg, isLocal: true, desc: "Explore trilhas ecológicas que revelam paisagens deslumbrantes e uma conexão genuína com a natureza. Caminhos entre florestas nativas, riachos cristalinos e vistas panorâmicas que tornam cada percurso memorável." },
   { title: "Piscina", img: piscinaImg, isLocal: true, desc: "​Uma ampla piscina aquecida para momentos de lazer com total conforto, integrada a uma vista deslumbrante que convida à contemplação." },
-  { title: "Sauna & Bem-estar", img: saunaImg, isLocal: true, desc: "Rituais de relaxamento inspirados na tradição local" },
+  { title: "Sauna & Bem-estar", img: saunaImg, isLocal: true, desc: "Relaxe e revitalize-se em nossa sauna, um ambiente acolhedor e tranquilo, ideal para aliviar o estresse e renovar o bem-estar." },
   { title: "Fitness Center", img: fitnessCenterImg, isLocal: true, desc: "Exercícios com vista para o cerrado infinito" },
   { title: "Beach Tennis", img: beachTennisImg, isLocal: true, desc: "Quadra de areia em meio à natureza" },
 ];
