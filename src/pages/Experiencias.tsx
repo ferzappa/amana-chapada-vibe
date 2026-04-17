@@ -16,7 +16,7 @@ const jornadas = [
   },
   {
     title: "Cachoeiras",
-    desc: "A Chapada guarda algumas das cachoeiras mais impressionantes do Brasil. Nossas trilhas privativas levam a quedas d'água exclusivas, longe do fluxo turístico.",
+    desc: "A Chapada dos Veadeiros abriga algumas das cachoeiras mais impressionantes do Brasil, com quedas imponentes, águas cristalinas e cenários que surpreendem a cada visita.\nExperiências únicas em meio à natureza, onde força e beleza se encontram de forma inesquecível.",
     img: cachoeirasImg,
     isLocal: true,
   },
