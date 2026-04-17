@@ -22,7 +22,7 @@ const jornadas = [
   },
   {
     title: "Passeios Personalizados",
-    desc: "Roteiros desenhados sob medida: observação de estrelas, nascer do sol no mirante, piquenique gourmet em meio à natureza. Tudo ao seu tempo.",
+    desc: "Roteiros desenhados sob medida para o seu ritmo: observação de estrelas, nascer do sol em mirantes, piqueniques gourmet em meio à natureza e visitas a aldeias indígenas.\nExperiências pensadas para tornar cada momento único, com autenticidade e significado.",
     img: passeiosImg,
     isLocal: true,
   },
