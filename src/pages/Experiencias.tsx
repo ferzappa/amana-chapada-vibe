@@ -28,7 +28,7 @@ const jornadas = [
   },
   {
     title: "Imersão na Natureza",
-    desc: "Banhos de floresta, meditação ao ar livre, yoga ao amanhecer. Práticas que usam a natureza como instrumento de reconexão e presença.",
+    desc: "Meditação ao ar livre e yoga ao amanhecer conduzem a momentos de presença e equilíbrio. Práticas que utilizam a natureza como cenário e essência para uma reconexão profunda.",
     img: imersaoImg,
     isLocal: true,
   },
