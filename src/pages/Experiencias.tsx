@@ -16,7 +16,7 @@ const jornadas = [
   },
   {
     title: "Cachoeiras",
-    desc: "A Chapada guarda algumas das cachoeiras mais impressionantes do Brasil. Nossas trilhas privativas levam a quedas d'água exclusivas, longe do fluxo turístico.",
+    desc: "A Chapada dos Veadeiros abriga algumas das cachoeiras mais impressionantes do Brasil, com quedas imponentes, águas cristalinas e cenários que surpreendem a cada visita.\nExperiências únicas em meio à natureza, onde força e beleza se encontram de forma inesquecível.",
     img: cachoeirasImg,
     isLocal: true,
   },
@@ -79,7 +79,7 @@ const Experiencias = () => (
               </div>
               <div className={i % 2 !== 0 ? "lg:order-1" : ""}>
                 <h2 className="display-2 text-foreground mb-6">{j.title}</h2>
-                <p className="text-muted-foreground">{j.desc}</p>
+                <p className="text-muted-foreground whitespace-pre-line">{j.desc}</p>
               </div>
             </div>
           </SectionReveal>
