@@ -79,7 +79,7 @@ const Experiencias = () => (
               </div>
               <div className={i % 2 !== 0 ? "lg:order-1" : ""}>
                 <h2 className="display-2 text-foreground mb-6">{j.title}</h2>
-                <p className="text-muted-foreground">{j.desc}</p>
+                <p className="text-muted-foreground whitespace-pre-line">{j.desc}</p>
               </div>
             </div>
           </SectionReveal>
