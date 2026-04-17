@@ -34,12 +34,10 @@ const Wedding = () => (
         <SectionReveal>
           <h2 className="display-2 text-foreground mb-6">Para celebrar o amor em um cenário único</h2>
           <p className="text-lg text-foreground mb-6">
-            Imagine um casamento onde o hotel inteiro é exclusivamente seu. Onde cada convidado
-            acorda com vista para o cerrado, e a celebração se funde com a natureza mais preservada do Brasil.
+            Imagine celebrar cercados por quem realmente importa, em um espaço onde tudo acontece com calma, beleza e significado. No Amaná, o hotel se torna exclusivamente seu, e cada convidado vivencia dias de conexão, conforto e natureza.
           </p>
           <p className="text-muted-foreground">
-            No Amaná, o wedding destination não é um evento — é uma experiência imersiva de vários dias
-            que transforma a celebração do amor em memória inesquecível.
+            Mais do que um evento, o wedding destination é uma experiência que se estende por dias: encontros, momentos compartilhados e memórias que se constroem com leveza e presença. Um cenário onde o amor se celebra de forma íntima, acolhedora e verdadeiramente inesquecível.
           </p>
         </SectionReveal>
       </div>
