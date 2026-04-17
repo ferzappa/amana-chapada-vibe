@@ -115,7 +115,7 @@ const Index = () => (
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-16 items-center">
             <div className="lg:col-span-2 order-2 lg:order-1">
               <p className="label-text text-accent mb-4">Wellness & Spa</p>
-              <h2 className="display-2 text-foreground mb-6">Rituais que reconectam</h2>
+              <h2 className="display-2 text-foreground mb-6">Experiências que reconectam</h2>
               <p className="text-muted-foreground mb-8">
                 Massagens com óleos do cerrado, sauna a lenha, terapias holísticas.
                 No SPA Amaná, o tempo se curva ao seu ritmo.
