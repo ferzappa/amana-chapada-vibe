@@ -60,7 +60,7 @@ const Spa = () => (
         <SectionReveal>
           <p className="label-text text-accent text-center mb-4">Nossos Tratamentos</p>
           <h2 className="display-2 text-foreground text-center mb-4">Corpo, Energia & Silêncio</h2>
-          <p className="text-muted-foreground text-center mb-16">Todos os tratamentos têm duração de 60 minutos.</p>
+          <p className="text-muted-foreground text-center mb-16">Cada tratamento tem duração de 60 minutos.</p>
         </SectionReveal>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
