@@ -32,7 +32,7 @@ const Wedding = () => (
     <section className="section-padding bg-branco">
       <div className="container-narrow max-w-3xl text-center">
         <SectionReveal>
-          <h2 className="display-2 text-foreground mb-6">Um lugar inteiro só para vocês</h2>
+          <h2 className="display-2 text-foreground mb-6">Para celebrar o amor em um cenário único</h2>
           <p className="text-lg text-foreground mb-6">
             Imagine um casamento onde o hotel inteiro é exclusivamente seu. Onde cada convidado
             acorda com vista para o cerrado, e a celebração se funde com a natureza mais preservada do Brasil.
