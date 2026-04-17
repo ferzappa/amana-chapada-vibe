@@ -10,7 +10,7 @@ import imersaoImg from "@/assets/imersao-natureza.jpg";
 const jornadas = [
   {
     title: "Trilhas Guiadas",
-    desc: "Percorra caminhos ancestrais com guias especializados que conhecem cada segredo do cerrado. Trilhas para todos os níveis, do contemplativo ao desafiador.",
+    desc: "Percorra caminhos do cerrado com o acompanhamento de guias credenciados da Chapada dos Veadeiros, com ampla experiência nas trilhas da região.\nSão percursos para diferentes níveis, do contemplativo ao desafiador, conduzidos com segurança, conhecimento e conexão com a paisagem.",
     img: trilhasImg,
     isLocal: true,
   },
