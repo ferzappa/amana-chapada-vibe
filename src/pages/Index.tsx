@@ -117,8 +117,7 @@ const Index = () => (
               <p className="label-text text-accent mb-4">Wellness & Spa</p>
               <h2 className="display-2 text-foreground mb-6">Experiências que reconectam</h2>
               <p className="text-muted-foreground mb-8">
-                Massagens com óleos do cerrado, sauna a lenha, terapias holísticas.
-                No SPA Amaná, o tempo se curva ao seu ritmo.
+                Massagens com óleos do cerrado, sauna e terapias holísticas compõem experiências pensadas para restaurar o equilíbrio com suavidade e presença. No SPA Amaná, o tempo desacelera e acompanha o seu ritmo, em um convite ao cuidado e ao bem-estar.
               </p>
               <Link to="/spa-chapada-dos-veadeiros" className="cta-arrow">
                 SPA Amaná
