@@ -101,9 +101,10 @@ const BangalosListagem = () => (
     <section className="section-padding bg-branco">
       <div className="container-narrow max-w-3xl mb-16">
         <SectionReveal>
-          <p className="text-lg text-foreground text-center">
-            Quatro tipologias, uma mesma filosofia: dissolver a fronteira entre você e a paisagem.
-            Cada bangalô é um universo à parte, com materiais naturais, silêncio absoluto e conforto sem concessões.
+          <p className="text-lg text-foreground text-center whitespace-pre-line">
+            Quatro tipologias, uma mesma filosofia: integrar você à paisagem. Cada bangalô é um universo à parte, onde materiais naturais, silêncio e conforto se encontram em perfeita harmonia.
+            {"\n"}
+            Espaços pensados para acolher com elegância, proporcionando uma experiência autêntica, onde o essencial ganha protagonismo e o bem-estar acontece de forma natural.
           </p>
         </SectionReveal>
       </div>
