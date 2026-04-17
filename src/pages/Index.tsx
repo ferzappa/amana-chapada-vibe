@@ -15,6 +15,8 @@ import gastronomiaImg from "@/assets/gastronomia.jpg";
 import chapadaVeadeirosImg from "@/assets/chapada-veadeiros.jpg";
 import wedding1Img from "@/assets/wedding-1.jpg";
 import wedding2Img from "@/assets/wedding-2.jpg";
+import wedding3Img from "@/assets/wedding-3.jpg";
+import wedding4Img from "@/assets/wedding-4.jpg";
 
 import heroImage from "@/assets/hero-poster.jpg";
 
@@ -187,7 +189,7 @@ const Index = () => (
             </div>
             <div className="lg:col-span-3">
               <BangaloCarousel
-                images={[wedding1Img, wedding2Img]}
+                images={[wedding1Img, wedding2Img, wedding3Img, wedding4Img]}
                 alt="Casamentos no Amaná Hotel"
               />
             </div>
