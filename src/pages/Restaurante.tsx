@@ -31,13 +31,11 @@ const Restaurante = () => (
             <div>
               <h2 className="display-2 text-foreground mb-6">Gastronomia que transforma momentos</h2>
               <p className="text-muted-foreground mb-6">
-                Nossa cozinha é guiada pela sazonalidade e pela riqueza do bioma. Ingredientes colhidos diariamente
-                da horta do hotel e do cerrado ao redor compõem pratos que celebram o território com sofisticação
-                e autenticidade.
+                Cada prato é pensado para ir além. Uma cozinha que combina técnica, apresentação e sabores marcantes,
+                criando experiências que acompanham o ritmo da sua estadia, do almoço descontraído ao jantar especial.
               </p>
               <p className="text-muted-foreground mb-8">
-                O cardápio muda com as estações. Cada refeição é uma experiência sensorial que conecta
-                o sabor à paisagem, o aroma à memória.
+                Um convite para aproveitar cada momento com prazer, leveza e sofisticação.
               </p>
               <div className="border-t border-border pt-6">
                 <p className="text-sm text-accent italic">
