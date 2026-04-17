@@ -151,7 +151,7 @@ const Index = () => (
             </div>
             <div className="lg:col-span-2">
               <p className="label-text text-accent mb-4">Gastronomia</p>
-              <h2 className="display-2 text-foreground mb-6">Da horta à mesa, com alma do cerrado</h2>
+              <h2 className="display-2 text-foreground mb-6">Gastronomia que transforma momentos</h2>
               <p className="text-muted-foreground mb-8">
                 Ingredientes colhidos da nossa horta e do bioma ao redor.
                 Uma cozinha que celebra o território com sofisticação e simplicidade.
