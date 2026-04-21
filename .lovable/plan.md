@@ -1,16 +1,14 @@
 
-Atualizar o botão "Reservas" na barra de navegação para direcionar para o link externo do Hbook.
+Atualizar o link "Reservas" no rodapé para direcionar ao sistema externo Hbook.
 
-## Alterações
+## Alteração
 
-**Arquivo:** `src/components/layout/Navbar.tsx`
+**Arquivo:** `src/components/layout/Footer.tsx`
 
-1. **Versão Desktop (linhas 64-69):** Substituir o componente `<Link to="/reservas-hotel-chapada-dos-veadeiros">` por uma tag `<a>` com:
-   - `href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"`
-   - `target="_blank"`
-   - `rel="noopener noreferrer"`
+No array `quickLinks`, substituir o item "Reservas" (atualmente `{ label: "Reservas", href: "/reservas-hotel-chapada-dos-veadeiros" }`) para que aponte para a URL externa do Hbook.
 
-2. **Versão Mobile (linhas 103-108):** Aplicar a mesma alteração no menu mobile, substituindo o `<Link>` por `<a>` com os mesmos atributos.
+Como os demais links do rodapé usam o componente `<Link>` do React Router, será necessário ajustar a renderização para detectar links externos (começando com `http`) e renderizá-los como `<a>` com `target="_blank"` e `rel="noopener noreferrer"`, mantendo o estilo visual idêntico aos outros links.
 
 ## Resultado Esperado
-O botão "Reservas" na barra superior (tanto desktop quanto mobile) abrirá o sistema de reservas Hbook em uma nova aba.
+
+O link "Reservas" no rodapé abrirá `https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02` em uma nova aba, consistente com o botão "Reservas" da barra de navegação.
