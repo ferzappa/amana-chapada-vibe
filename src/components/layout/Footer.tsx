@@ -7,7 +7,7 @@ const quickLinks = [
   { label: "Restaurante", href: "/restaurante-chapada-dos-veadeiros" },
   { label: "Experiências", href: "/experiencias-chapada-dos-veadeiros" },
   { label: "Wedding", href: "/wedding-chapada-dos-veadeiros" },
-  { label: "Reservas", href: "/reservas-hotel-chapada-dos-veadeiros" },
+  { label: "Reservas", href: "https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02" },
 ];
 
 const instagramImages = [
@@ -46,15 +46,27 @@ const Footer = () => (
         <div>
           <h4 className="label-text text-dourado mb-6">Navegação</h4>
           <div className="flex flex-col gap-3">
-            {quickLinks.map((link) => (
-              <Link
-                key={link.href}
-                to={link.href}
-                className="text-sm text-creme/70 hover:text-dourado transition-colors duration-300"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {quickLinks.map((link) =>
+              link.href.startsWith("http") ? (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-creme/70 hover:text-dourado transition-colors duration-300"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className="text-sm text-creme/70 hover:text-dourado transition-colors duration-300"
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
           </div>
         </div>
 
