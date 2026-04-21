@@ -1,14 +1,21 @@
 
-Atualizar o link "Reservas" no rodapé para direcionar ao sistema externo Hbook.
+Substituir todos os botões/links internos que apontam para `/reservas-hotel-chapada-dos-veadeiros` por links externos para o sistema Hbook.
 
-## Alteração
+## Alterações
 
-**Arquivo:** `src/components/layout/Footer.tsx`
+Em cada local abaixo, substituir o componente `<Link to="/reservas-hotel-chapada-dos-veadeiros">` por uma tag `<a>` com:
+- `href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"`
+- `target="_blank"`
+- `rel="noopener noreferrer"`
+- Mantendo as mesmas classes CSS e textos atuais.
 
-No array `quickLinks`, substituir o item "Reservas" (atualmente `{ label: "Reservas", href: "/reservas-hotel-chapada-dos-veadeiros" }`) para que aponte para a URL externa do Hbook.
+**Arquivos:**
+1. `src/components/layout/FloatingCTA.tsx` — botão flutuante "Melhor tarifa aqui".
+2. `src/components/BangaloTemplate.tsx` (linha 40) — botão "Reservar este bangalô" usado em todas as páginas de bangalôs.
+3. `src/pages/Index.tsx` (linha 75) — CTA principal do hero da home.
+4. `src/pages/Index.tsx` (linha 272) — CTA secundário da home.
 
-Como os demais links do rodapé usam o componente `<Link>` do React Router, será necessário ajustar a renderização para detectar links externos (começando com `http`) e renderizá-los como `<a>` com `target="_blank"` e `rel="noopener noreferrer"`, mantendo o estilo visual idêntico aos outros links.
+A rota `/reservas-hotel-chapada-dos-veadeiros` em `src/App.tsx` será mantida para que a página `Reservas.tsx` continue acessível diretamente, sem afetar a navegação atual.
 
 ## Resultado Esperado
-
-O link "Reservas" no rodapé abrirá `https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02` em uma nova aba, consistente com o botão "Reservas" da barra de navegação.
+Todos os botões de reserva no site (hero, CTA da home, botão flutuante e botões nas páginas de bangalôs) abrirão o sistema Hbook em uma nova aba, consistente com os botões "Reservas" do Navbar e do rodapé.
