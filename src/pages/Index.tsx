@@ -72,13 +72,15 @@ const Index = () => (
         <h1 className="display-1 text-branco mb-8" style={{ animationDelay: "0.2s", animationFillMode: "both" }}>
           Onde o silêncio é o maior luxo
         </h1>
-        <Link
-          to="/reservas-hotel-chapada-dos-veadeiros"
+        <a
+          href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block label-text text-[12px] bg-primary text-primary-foreground px-10 py-4 hover:bg-primary/90 transition-all duration-500 animate-fade-in-up"
           style={{ animationDelay: "0.5s" }}
         >
           Reservas
-        </Link>
+        </a>
       </div>
     </section>
 
@@ -269,12 +271,14 @@ const Index = () => (
           <h2 className="display-2 text-branco mb-8">
             Alguns lugares você visita.<br />Outros permanecem.
           </h2>
-          <Link
-            to="/reservas-hotel-chapada-dos-veadeiros"
+          <a
+            href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block label-text text-[12px] border border-dourado text-dourado px-10 py-4 hover:bg-dourado hover:text-chumbo transition-all duration-500"
           >
             Reserve sua estadia
-          </Link>
+          </a>
         </SectionReveal>
       </div>
     </section>
