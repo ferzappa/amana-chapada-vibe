@@ -61,12 +61,14 @@ const Navbar = () => {
           >
             <Instagram size={18} />
           </a>
-          <Link
-            to="/reservas-hotel-chapada-dos-veadeiros"
+          <a
+            href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"
+            target="_blank"
+            rel="noopener noreferrer"
             className="label-text text-[11px] bg-primary text-primary-foreground px-6 py-3 hover:bg-primary/90 transition-colors duration-300"
           >
             Reservas
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -100,12 +102,14 @@ const Navbar = () => {
             >
               <Instagram size={18} /> Instagram
             </a>
-            <Link
-              to="/reservas-hotel-chapada-dos-veadeiros"
+            <a
+              href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"
+              target="_blank"
+              rel="noopener noreferrer"
               className="label-text text-sm bg-primary text-primary-foreground px-6 py-3 text-center hover:bg-primary/90 transition-colors"
             >
               Reservas
-            </Link>
+            </a>
           </div>
         </div>
       )}
