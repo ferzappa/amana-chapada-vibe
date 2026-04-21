@@ -37,12 +37,14 @@ const BangaloTemplate = ({ data }: { data: BangaloData }) => (
             <div>
               <h2 className="display-2 text-foreground mb-6">{data.title}</h2>
               <p className="text-muted-foreground mb-8">{data.intro}</p>
-              <Link
-                to="/reservas-hotel-chapada-dos-veadeiros"
+              <a
+                href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block label-text text-[12px] bg-primary text-primary-foreground px-8 py-4 hover:bg-primary/90 transition-all duration-500"
               >
                 Reservar este bangalô
-              </Link>
+              </a>
             </div>
             <div>
               <h3 className="label-text text-accent mb-6">O que inclui</h3>
