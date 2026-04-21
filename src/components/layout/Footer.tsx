@@ -36,8 +36,8 @@ const Footer = () => (
             <span className="flex items-center gap-2">
               <MapPin size={14} /> Vila de São Jorge, Alto Paraíso — GO
             </span>
-            <a href="mailto:contato@amanahotel.com.br" className="flex items-center gap-2 hover:text-dourado transition-colors duration-300">
-              <Mail size={14} /> contato@amanahotel.com.br
+            <a href="mailto:reservas@amanahotel.com.br" className="flex items-center gap-2 hover:text-dourado transition-colors duration-300">
+              <Mail size={14} /> reservas@amanahotel.com.br
             </a>
           </div>
         </div>
