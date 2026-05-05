@@ -66,7 +66,7 @@ const Sobre = () => (
               </p>
               <p className="text-muted-foreground">
                 São 12 bangalôs desenhados com materiais naturais, todos com vista para a imensidão do cerrado goiano.
-                Cada detalhe — dos lençóis Trousseau 600 fios às amenities orgânicas — foi pensado para criar
+                Cada detalhe, do enxoval premium Trousseau às amenities orgânicas, foi pensado para criar
                 uma experiência de hospedagem que permanece na memória muito depois do check-out.
               </p>
             </div>
