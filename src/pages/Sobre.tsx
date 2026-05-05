@@ -60,7 +60,7 @@ const Sobre = () => (
             </div>
             <div>
               <p className="text-lg text-foreground leading-relaxed mb-6">
-                O Amaná nasceu da crença de que o verdadeiro luxo não se mede em estrelas, mas em silêncio.
+                O Amaná nasce do entendimento de que o verdadeiro luxo não se mede em estrelas, mas em silêncio.
                 Em 40 hectares de cerrado preservado, entre a Vila de São Jorge e o Parque Nacional da Chapada dos Veadeiros,
                 criamos um refúgio onde a arquitetura se curva à paisagem e o tempo se ajusta ao seu ritmo.
               </p>
