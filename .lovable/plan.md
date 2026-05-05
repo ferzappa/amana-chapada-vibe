@@ -1,21 +1,13 @@
+## Alterações na página Sobre (`src/pages/Sobre.tsx`)
 
-Substituir todos os botões/links internos que apontam para `/reservas-hotel-chapada-dos-veadeiros` por links externos para o sistema Hbook.
+### 1. Remover a seção de diferenciais
+Remover completamente o bloco mostrado na captura de tela (números 12, 40, 600, ∅, 12:1):
+- Remover a `<section>` "Diferenciais" (com fundo `bg-creme`) que renderiza o array `diferenciais`.
+- Remover também a constante `diferenciais` no topo do arquivo, já que não será mais utilizada.
 
-## Alterações
+### 2. Foto da piscina
+Aguardar o upload da nova imagem da piscina pela usuária. Quando ela enviar na próxima mensagem, a imagem será copiada para `public/lovable-uploads/` (ou `src/assets/`) e o caminho no bloco "Piscina" do array `blocos` será atualizado, substituindo o arquivo inexistente `cdd1d6d2-cb54-4f7a-a8dd-25f1a1d40141.jpg`.
 
-Em cada local abaixo, substituir o componente `<Link to="/reservas-hotel-chapada-dos-veadeiros">` por uma tag `<a>` com:
-- `href="https://hbook.hsystem.com.br/Booking?companyId=668e8f59ea1c96c25a39ce02"`
-- `target="_blank"`
-- `rel="noopener noreferrer"`
-- Mantendo as mesmas classes CSS e textos atuais.
-
-**Arquivos:**
-1. `src/components/layout/FloatingCTA.tsx` — botão flutuante "Melhor tarifa aqui".
-2. `src/components/BangaloTemplate.tsx` (linha 40) — botão "Reservar este bangalô" usado em todas as páginas de bangalôs.
-3. `src/pages/Index.tsx` (linha 75) — CTA principal do hero da home.
-4. `src/pages/Index.tsx` (linha 272) — CTA secundário da home.
-
-A rota `/reservas-hotel-chapada-dos-veadeiros` em `src/App.tsx` será mantida para que a página `Reservas.tsx` continue acessível diretamente, sem afetar a navegação atual.
-
-## Resultado Esperado
-Todos os botões de reserva no site (hero, CTA da home, botão flutuante e botões nas páginas de bangalôs) abrirão o sistema Hbook em uma nova aba, consistente com os botões "Reservas" do Navbar e do rodapé.
+## Resultado esperado
+- A faixa horizontal com os 5 diferenciais (12 bangalôs, 40 hectares, 600 fios, ∅ design, 12:1 hóspedes/funcionário) desaparece da página Sobre.
+- A foto quebrada da piscina será corrigida assim que a nova imagem for enviada.
