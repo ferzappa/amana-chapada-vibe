@@ -39,7 +39,7 @@ const Restaurante = () => (
               </p>
               <div className="border-t border-border pt-6">
                 <p className="text-sm text-accent italic">
-                  Aberto ao público mediante reserva prévia. Venha conhecer mesmo sem estar hospedado.
+                  Aberto ao público externo, no jantar, mediante reserva prévia.
                 </p>
               </div>
             </div>
