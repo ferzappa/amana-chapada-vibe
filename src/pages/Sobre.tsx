@@ -4,14 +4,6 @@ import SectionReveal from "@/components/SectionReveal";
 import SEO from "@/components/SEO";
 import heroImg from "@/assets/bangalos-hero.jpg";
 
-const diferenciais = [
-  { num: "12", label: "Bangalôs exclusivos", desc: "Privacidade total em meio ao cerrado" },
-  { num: "40", label: "Hectares preservados", desc: "Natureza intocada como quintal" },
-  { num: "600", label: "Fios Trousseau", desc: "Enxoval premium em todas as suítes" },
-  { num: "∅", label: "Design minimalista", desc: "Arquitetura que reverencia a paisagem" },
-  { num: "12:1", label: "Hóspedes por funcionário", desc: "Serviço íntimo e personalizado" },
-];
-
 const blocos = [
   { title: "Piscina", desc: "Piscina de borda infinita com vista para o cerrado. Um convite à contemplação que se estende até o horizonte.", img: "/lovable-uploads/cdd1d6d2-cb54-4f7a-a8dd-25f1a1d40141.jpg" },
   { title: "Academia", desc: "Equipamentos modernos em ambiente integrado à natureza. Treine com vista para a paisagem do cerrado.", img: "/lovable-uploads/35ed9e0f-135f-477d-9291-f84a6d42d062.jpg" },
@@ -70,23 +62,6 @@ const Sobre = () => (
                 uma experiência de hospedagem que permanece na memória muito depois do check-out.
               </p>
             </div>
-          </div>
-        </SectionReveal>
-      </div>
-    </section>
-
-    {/* Diferenciais */}
-    <section className="section-padding bg-creme">
-      <div className="container-narrow">
-        <SectionReveal>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-            {diferenciais.map((d, i) => (
-              <div key={i} className="text-center">
-                <span className="font-serif text-4xl md:text-5xl text-primary block mb-2">{d.num}</span>
-                <span className="label-text text-[11px] text-accent block mb-2">{d.label}</span>
-                <p className="text-xs text-muted-foreground">{d.desc}</p>
-              </div>
-            ))}
           </div>
         </SectionReveal>
       </div>
