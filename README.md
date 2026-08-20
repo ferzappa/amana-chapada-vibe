@@ -1,3 +1,26 @@
-# Welcome to your Lovable project
+# Amaná Hotel | Site
 
-TODO: Document your project here
+Vamos criar um site para o Amaná Hotel Chapada dos Veadeiros. Vou te enviar um arquivo em anexo.
+
+This project was built with [Lovable](https://lovable.dev).
+
+**Live app**: https://amana-chapada-vibe.lovable.app
+
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/7b201495-dd38-4fd5-8942-6202025e3c78).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
